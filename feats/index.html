@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="pf2e">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">Almacen de Dotes PF2e</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="app-header">
+        <div class="header-content">
+            <h1 id="main-title">Almacen de Dotes PF2e</h1>
+            <div class="header-controls">
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="Search feats by name or description..." autocomplete="off">
+                </div>
+                <select id="language-selector" class="theme-select">
+                    <option value="en">English</option>
+                    <option value="es">Español</option>
+                </select>
+                <select id="theme-selector" class="theme-select">
+                    <option value="pf2e">PF2e Theme</option>
+                    <option value="light">Light Theme</option>
+                    <option value="dark">Dark Theme</option>
+                </select>
+            </div>
+        </div>
+    </header>
+
+    <main class="app-main">
+        <aside class="sidebar">
+            <div class="filter-section">
+                <h3 id="ui-filters-title">Filters</h3>
+                <button id="clear-filters" class="clear-btn">Clear All</button>
+            </div>
+            
+            <div class="filter-group trait-filter-group">
+                <h4 id="ui-specific-trait">Specific Trait</h4>
+                <input type="text" id="trait-search-input" placeholder="Buscar rasgo..." class="styled-input">
+                <div id="traits-list" class="traits-scroll-list">
+                    <!-- Trait items injected here -->
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <h4 id="ui-category">Category</h4>
+                <div id="category-filters" class="checkbox-group"></div>
+            </div>
+
+            <div class="filter-group">
+                <h4 id="ui-level">Level</h4>
+                <div id="level-filters" class="checkbox-group level-scroll"></div>
+            </div>
+        </aside>
+
+        <section class="content-area">
+            <div class="results-header">
+                <span id="results-count">Loading feats...</span>
+            </div>
+            <div id="feats-grid" class="feats-grid">
+                <!-- Feat cards will be injected here -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="app-footer">
+        <div class="footer-content">
+            <p>Si querés apoyar al desarrollador, podés donar un cafecito: <a href="https://cafecito.app/guillegearts" target="_blank" class="cafecito-link">cafecito.app/guillegearts</a></p>
+            <hr class="footer-divider" />
+            <div class="legal-notice">
+                <p><strong>Aviso de Paizo:</strong> Esta aplicación utiliza marcas registradas y/o derechos de autor de Paizo Inc., los cuales se utilizan bajo la Política de Uso Comunitario de Paizo. Tenemos expresamente prohibido cobrarle por el uso o acceso a este contenido. Esta aplicación no está publicada, respaldada ni específicamente aprobada por Paizo Inc. Para más información visite <a href="http://paizo.com/communityuse" target="_blank">paizo.com/communityuse</a>.</p>
+                <p>Pathfinder y los logotipos de Pathfinder son marcas registradas de Paizo Inc. Los contenidos de Pathfinder y las imágenes de los productos son propiedad de Paizo Inc. y se utilizan con permiso.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Trait Details Modal -->
+    <div id="trait-modal" class="modal-overlay hidden">
+        <div class="modal-container">
+            <div class="modal-header">
+                <h3 id="modal-trait-title" class="modal-title">Trait Name</h3>
+                <button id="modal-close-btn" class="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p id="modal-trait-desc">Trait description goes here...</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
