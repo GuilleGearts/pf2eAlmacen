@@ -15,6 +15,8 @@ const resultsCount = document.getElementById('results-count');
 const clearFiltersBtn = document.getElementById('clear-filters');
 const themeSelector = document.getElementById('theme-selector');
 const languageSelector = document.getElementById('language-selector');
+const toggleSidebarBtn = document.getElementById('toggle-sidebar');
+const sidebar = document.querySelector('.sidebar');
 
 // State
 const state = {
@@ -65,7 +67,18 @@ const uiTranslations = {
         price: "Precio: ",
         bulk: "Volumen: ",
         damage: "Daño: ",
-        ac: "Bono CA: "
+        ac: "Bono CA: ",
+        itemTypes: {
+            ammo: "Munición",
+            armor: "Armadura",
+            backpack: "Mochila",
+            consumable: "Consumible",
+            equipment: "Equipo",
+            kit: "Kit",
+            shield: "Escudo",
+            treasure: "Tesoro",
+            weapon: "Arma"
+        }
     }
 };
 
@@ -94,6 +107,10 @@ async function init() {
         const savedLanguage = localStorage.getItem('pf2e-lang') || 'es';
         state.language = savedLanguage;
         languageSelector.value = savedLanguage;
+        
+        const sidebarCollapsed = localStorage.getItem('sidebar-collapsed') === 'true';
+        if (sidebarCollapsed) sidebar.classList.add('collapsed');
+        
         updateUI();
 
         const [itemsRes, traitsRes] = await Promise.all([
@@ -138,7 +155,8 @@ function buildFilters() {
     Array.from(categories).sort().forEach(cat => {
         const label = document.createElement('label');
         label.className = 'checkbox-label';
-        label.innerHTML = `<input type="checkbox" value="${cat}" class="cat-cb"> ${formatTrait(cat)}`;
+        const translatedCat = uiTranslations[state.language].itemTypes ? (uiTranslations[state.language].itemTypes[cat] || formatTrait(cat)) : formatTrait(cat);
+        label.innerHTML = `<input type="checkbox" value="${cat}" class="cat-cb"> ${translatedCat}`;
         categoryFiltersContainer.appendChild(label);
     });
 
@@ -268,6 +286,13 @@ function setupEventListeners() {
         applyFilters();
     });
     
+    if (toggleSidebarBtn) {
+        toggleSidebarBtn.addEventListener('click', () => {
+            sidebar.classList.toggle('collapsed');
+            localStorage.setItem('sidebar-collapsed', sidebar.classList.contains('collapsed'));
+        });
+    }
+
     window.addEventListener('scroll', () => {
         if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 500) {
             if (currentRenderCount < filteredItems.length) {
@@ -310,8 +335,12 @@ function formatTrait(trait) {
         const data = traitsData[trait.toLowerCase()];
         const langData = (state.language === 'es' && data.es && data.es.name) ? data.es : data.en;
         if (langData && langData.name) {
+            if (state.language === 'es' && trait.toLowerCase() === 'downtime') return "Tiempo Libre";
             return langData.name;
         }
+    }
+    if (state.language === 'es' && uiTranslations.es.itemTypes[trait.toLowerCase()]) {
+        return uiTranslations.es.itemTypes[trait.toLowerCase()];
     }
     return formatted;
 }
@@ -350,16 +379,16 @@ function createItemCard(item) {
             <h2 class="feat-title">${langData.name}</h2>
             <span class="feat-level">${t.levelPrefix}${item.level}</span>
         </div>
-        <div class="feat-meta">
-            <span class="price"><strong>${t.price}</strong>${item.price || '-'}</span>
-            <span class="bulk"><strong>${t.bulk}</strong>${item.bulk || '-'}</span>
-            ${extraHtml}
-            <span class="publication">${item.publication ? t.source + item.publication : ''}</span>
-        </div>
+        <span class="publication">${item.publication ? t.source + item.publication : ''}</span>
         <div class="feat-traits">
             <span class="trait-badge ${getTraitColorClass(item.type)}">${formatTrait(item.type)}</span>
             ${rarityBadge}
             ${traitsHtml}
+        </div>
+        <div class="feat-meta">
+            <span class="price"><strong>${t.price}</strong>${item.price || '-'}</span>
+            <span class="bulk"><strong>${t.bulk}</strong>${item.bulk || '-'}</span>
+            ${extraHtml}
         </div>
         <div class="feat-desc">
             ${langData.description}
