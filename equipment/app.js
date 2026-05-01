@@ -17,6 +17,7 @@ const themeSelector = document.getElementById('theme-selector');
 const languageSelector = document.getElementById('language-selector');
 const toggleSidebarBtn = document.getElementById('toggle-sidebar');
 const sidebar = document.querySelector('.sidebar');
+const sidebarOverlay = document.getElementById('sidebar-overlay');
 
 // State
 const state = {
@@ -108,8 +109,15 @@ async function init() {
         state.language = savedLanguage;
         languageSelector.value = savedLanguage;
         
-        const sidebarCollapsed = localStorage.getItem('sidebar-collapsed') === 'true';
-        if (sidebarCollapsed) sidebar.classList.add('collapsed');
+        // Mobile initial state: collapsed by default on small screens if no preference saved
+        const isMobile = window.innerWidth <= 900;
+        const sidebarCollapsed = localStorage.getItem('sidebar-collapsed') === null ? isMobile : localStorage.getItem('sidebar-collapsed') === 'true';
+        
+        if (sidebarCollapsed) {
+            sidebar.classList.add('collapsed');
+        } else if (isMobile) {
+            sidebarOverlay.classList.add('active');
+        }
         
         updateUI();
 
@@ -288,8 +296,21 @@ function setupEventListeners() {
     
     if (toggleSidebarBtn) {
         toggleSidebarBtn.addEventListener('click', () => {
-            sidebar.classList.toggle('collapsed');
-            localStorage.setItem('sidebar-collapsed', sidebar.classList.contains('collapsed'));
+            const isCollapsed = sidebar.classList.toggle('collapsed');
+            localStorage.setItem('sidebar-collapsed', isCollapsed);
+            
+            if (window.innerWidth <= 900) {
+                if (!isCollapsed) sidebarOverlay.classList.add('active');
+                else sidebarOverlay.classList.remove('active');
+            }
+        });
+    }
+
+    if (sidebarOverlay) {
+        sidebarOverlay.addEventListener('click', () => {
+            sidebar.classList.add('collapsed');
+            sidebarOverlay.classList.remove('active');
+            localStorage.setItem('sidebar-collapsed', 'true');
         });
     }
 
