@@ -15,6 +15,8 @@ const resultsCount = document.getElementById('results-count');
 const clearFiltersBtn = document.getElementById('clear-filters');
 const themeSelector = document.getElementById('theme-selector');
 const languageSelector = document.getElementById('language-selector');
+const toggleSidebarBtn = document.getElementById('toggle-sidebar');
+const sidebar = document.querySelector('.sidebar');
 
 // State
 const state = {
@@ -59,7 +61,15 @@ const uiTranslations = {
         noMatch: "Ninguna dote coincide con los filtros.",
         source: "Fuente: ",
         levelPrefix: "Nivel ",
-        showing: "Mostrando"
+        showing: "Mostrando",
+        categories: {
+            ancestry: "Linaje",
+            bonus: "Bono",
+            class: "Clase",
+            classfeature: "Rasgo de Clase",
+            general: "General",
+            skill: "Habilidad"
+        }
     }
 };
 
@@ -89,6 +99,10 @@ async function init() {
         const savedLanguage = localStorage.getItem('pf2e-lang') || 'es';
         state.language = savedLanguage;
         languageSelector.value = savedLanguage;
+        
+        const sidebarCollapsed = localStorage.getItem('sidebar-collapsed') === 'true';
+        if (sidebarCollapsed) sidebar.classList.add('collapsed');
+        
         updateUI();
 
         const [featsRes, traitsRes] = await Promise.all([
@@ -132,7 +146,8 @@ function buildFilters() {
     Array.from(categories).sort().forEach(cat => {
         const label = document.createElement('label');
         label.className = 'checkbox-label';
-        label.innerHTML = `<input type="checkbox" value="${cat}" class="cat-cb"> ${formatTrait(cat)}`;
+        const translatedCat = uiTranslations[state.language].categories ? (uiTranslations[state.language].categories[cat] || formatTrait(cat)) : formatTrait(cat);
+        label.innerHTML = `<input type="checkbox" value="${cat}" class="cat-cb"> ${translatedCat}`;
         categoryFiltersContainer.appendChild(label);
     });
 
@@ -268,6 +283,13 @@ function setupEventListeners() {
         applyFilters();
     });
     
+    if (toggleSidebarBtn) {
+        toggleSidebarBtn.addEventListener('click', () => {
+            sidebar.classList.toggle('collapsed');
+            localStorage.setItem('sidebar-collapsed', sidebar.classList.contains('collapsed'));
+        });
+    }
+
     window.addEventListener('scroll', () => {
         if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 500) {
             if (currentRenderCount < filteredFeats.length) {
@@ -320,8 +342,12 @@ function formatTrait(trait) {
         const data = traitsData[trait.toLowerCase()];
         const langData = (state.language === 'es' && data.es && data.es.name) ? data.es : data.en;
         if (langData && langData.name) {
+            if (state.language === 'es' && trait.toLowerCase() === 'downtime') return "Tiempo Libre";
             return langData.name;
         }
+    }
+    if (state.language === 'es' && uiTranslations.es.categories && uiTranslations.es.categories[trait.toLowerCase()]) {
+        return uiTranslations.es.categories[trait.toLowerCase()];
     }
     return formatted;
 }
