@@ -94,11 +94,42 @@ body {
     flex-wrap: wrap;
 }
 
+.header-titles {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
 h1 {
     font-family: var(--font-heading);
     font-size: 1.8rem;
     letter-spacing: 0.5px;
     white-space: nowrap;
+    line-height: 1.1;
+}
+
+.version-badges {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.badge {
+    font-family: var(--font-body);
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 0.1rem 0.5rem;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.9);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+:root[data-theme="dark"] .badge {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.1);
 }
 
 .header-controls {

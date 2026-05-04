@@ -4,6 +4,9 @@ const RENDER_LIMIT = 50;
 let currentRenderCount = 0;
 let traitsData = {};
 
+const APP_VERSION = "v2.1.2";
+const DATA_VERSION = "2024.04.30";
+
 // DOM Elements
 const searchInput = document.getElementById('search-input');
 const traitSearchInput = document.getElementById('trait-search-input');
@@ -78,6 +81,8 @@ function updateUI() {
     const t = uiTranslations[state.language];
     document.getElementById('page-title').textContent = t.title;
     document.getElementById('main-title').textContent = t.title;
+    document.getElementById('app-version').textContent = APP_VERSION;
+    document.getElementById('data-version').textContent = `Data: ${DATA_VERSION}`;
     document.getElementById('search-input').placeholder = t.searchPlaceholder;
     if (traitSearchInput) traitSearchInput.placeholder = t.traitSearchPlaceholder;
     document.getElementById('ui-filters-title').textContent = t.filters;
