@@ -154,7 +154,9 @@ function buildFilters() {
         if (item.type) categories.add(item.type);
         if (item.level !== undefined && item.level !== null) levels.add(item.level);
         if (item.traits && Array.isArray(item.traits)) {
-            item.traits.forEach(t => traits.add(t));
+            item.traits.forEach(t => {
+                if (t) traits.add(t);
+            });
         }
     });
 
@@ -325,18 +327,35 @@ function setupEventListeners() {
 
 function applyFilters() {
     filteredItems = allItems.filter(item => {
-        const langData = (state.language === 'es' && item.es && item.es.name) ? item.es : item.en;
-        if (state.searchQuery) {
-            const nameMatch = langData.name.toLowerCase().includes(state.searchQuery);
-            const descMatch = langData.description.toLowerCase().includes(state.searchQuery);
-            if (!nameMatch && !descMatch) return false;
+        const query = state.searchQuery;
+        
+        if (query) {
+            const esData = item.es || {};
+            const enData = item.en || {};
+            
+            // Check current language first
+            const primaryData = (state.language === 'es' && esData.name) ? esData : enData;
+            const nameMatch = (primaryData.name || "").toLowerCase().includes(query);
+            const descMatch = (primaryData.description || "").toLowerCase().includes(query);
+            
+            if (!nameMatch && !descMatch) {
+                // Fallback: check the OTHER language if we didn't find a match
+                const secondaryData = (primaryData === esData) ? enData : esData;
+                const altNameMatch = (secondaryData.name || "").toLowerCase().includes(query);
+                const altDescMatch = (secondaryData.description || "").toLowerCase().includes(query);
+                
+                if (!altNameMatch && !altDescMatch) return false;
+            }
         }
+
         if (state.selectedCategories.size > 0 && !state.selectedCategories.has(item.type)) {
             return false;
         }
-        if (state.selectedLevels.size > 0 && !state.selectedLevels.has(item.level.toString())) {
-            return false;
+        if (state.selectedLevels.size > 0) {
+            const itemLvl = item.level !== undefined && item.level !== null ? item.level.toString() : "";
+            if (!state.selectedLevels.has(itemLvl)) return false;
         }
+        
         const itemTraits = item.traits || [];
         for (let ext of state.excludedTraits) {
             if (itemTraits.includes(ext)) return false;
@@ -412,7 +431,7 @@ function createItemCard(item) {
             ${extraHtml}
         </div>
         <div class="feat-desc">
-            ${langData.description}
+            ${langData.description || (state.language === 'es' && item.en ? item.en.description : '') || ''}
         </div>
     `;
     return card;
