@@ -79,6 +79,69 @@ const uiTranslations = {
             shield: "Escudo",
             treasure: "Tesoro",
             weapon: "Arma"
+        },
+        damageTypes: {
+            bludgeoning: "contundente",
+            piercing: "perforante",
+            slashing: "cortante",
+            acid: "ácido",
+            cold: "frío",
+            electricity: "electricidad",
+            fire: "fuego",
+            force: "fuerza",
+            mental: "mental",
+            poison: "veneno",
+            sonic: "sónico",
+            spirit: "espíritu",
+            vitality: "vitalidad",
+            void: "vacío",
+            persistent: "persistente"
+        },
+        traitPatterns: {
+            "versatile-b": "Versátil C",
+            "versatile-p": "Versátil P",
+            "versatile-s": "Versátil C",
+            "two-hand": "A dos manos",
+            "deadly": "Mortífera",
+            "fatal": "Fatal",
+            "fatal-aim": "Puntería fatal",
+            "thrown": "Arrojadiza",
+            "scatter": "Dispersión",
+            "capacity": "Capacidad",
+            "range": "Alcance",
+            "reload": "Recarga",
+            "shove": "Empujar",
+            "trip": "Derribar",
+            "grapple": "Agarrar",
+            "disarm": "Desarmar",
+            "reach": "Alcance",
+            "agile": "Ágil",
+            "finesse": "Sutileza",
+            "forceful": "Poderosa",
+            "backstabber": "Puñalada trapera",
+            "backswing": "Recobro",
+            "twin": "Gemela",
+            "parry": "Parada",
+            "propulsive": "Propulsora",
+            "sweep": "Barrido",
+            "tethered": "Atada",
+            "unarmed": "Desarmado",
+            "nonlethal": "No letal",
+            "shove": "Empujar",
+            "concealable": "Ocultable",
+            "concussive": "Conmocionadora",
+            "kickback": "Retroceso",
+            "modular": "Modular",
+            "recovery": "Recuperación",
+            "resonant": "Resonante",
+            "chaotic": "Caótico",
+            "evil": "Malvado",
+            "good": "Bueno",
+            "lawful": "Legal",
+            "uncommon": "Poco común",
+            "rare": "Raro",
+            "unique": "Único",
+            "common": "Común"
         }
     }
 };
@@ -370,17 +433,40 @@ function applyFilters() {
 
 function formatTrait(trait) {
     if (!trait) return '';
+    const t = trait.toLowerCase();
+    
+    // Check if we are in Spanish and have a pattern or translation
+    if (state.language === 'es') {
+        const patterns = uiTranslations.es.traitPatterns;
+        
+        // Direct matches first
+        if (patterns[t]) return patterns[t];
+        
+        // Pattern matches (e.g., two-hand-d10, fatal-d12, thrown-20)
+        if (t.includes('two-hand-')) return `${patterns['two-hand']} ${t.split('-').pop()}`;
+        if (t.includes('fatal-aim-')) return `${patterns['fatal-aim']} ${t.split('-').pop()}`;
+        if (t.includes('fatal-')) return `${patterns['fatal']} ${t.split('-').pop()}`;
+        if (t.includes('deadly-')) return `${patterns['deadly']} ${t.split('-').pop()}`;
+        if (t.includes('thrown-')) return `${patterns['thrown']} ${t.split('-').pop()} pies`;
+        if (t.includes('scatter-')) return `${patterns['scatter']} ${t.split('-').pop()} pies`;
+        if (t.includes('capacity-')) return `${patterns['capacity']} ${t.split('-').pop()}`;
+        if (t.startsWith('versatile-')) {
+            const type = t.split('-').pop();
+            return `Versátil ${type.toUpperCase()}`;
+        }
+        
+        // Core types fallback
+        if (uiTranslations.es.itemTypes[t]) return uiTranslations.es.itemTypes[t];
+    }
+
     const formatted = trait.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
-    if (traitsData && traitsData[trait.toLowerCase()]) {
-        const data = traitsData[trait.toLowerCase()];
+    if (traitsData && traitsData[t]) {
+        const data = traitsData[t];
         const langData = (state.language === 'es' && data.es && data.es.name) ? data.es : data.en;
         if (langData && langData.name) {
-            if (state.language === 'es' && trait.toLowerCase() === 'downtime') return "Tiempo Libre";
+            if (state.language === 'es' && t === 'downtime') return "Tiempo Libre";
             return langData.name;
         }
-    }
-    if (state.language === 'es' && uiTranslations.es.itemTypes[trait.toLowerCase()]) {
-        return uiTranslations.es.itemTypes[trait.toLowerCase()];
     }
     return formatted;
 }
@@ -392,6 +478,19 @@ function getTraitColorClass(trait) {
     if (t === 'consumable') return 'trait-skill';
     if (t === 'equipment') return 'trait-ancestry';
     return '';
+}
+
+function translateDamage(damageText) {
+    if (!damageText || state.language !== 'es') return damageText;
+    let translated = damageText.toLowerCase();
+    const types = uiTranslations.es.damageTypes;
+    
+    Object.keys(types).forEach(type => {
+        const regex = new RegExp(`\\b${type}\\b`, 'g');
+        translated = translated.replace(regex, types[type]);
+    });
+    
+    return translated;
 }
 
 function createItemCard(item) {
@@ -410,7 +509,7 @@ function createItemCard(item) {
 
     let extraHtml = '';
     if (item.extra) {
-        if (item.extra.damage) extraHtml += `<span><strong>${t.damage}</strong>${item.extra.damage}</span>`;
+        if (item.extra.damage) extraHtml += `<span><strong>${t.damage}</strong>${translateDamage(item.extra.damage)}</span>`;
         if (item.extra.ac) extraHtml += `<span><strong>${t.ac}</strong>${item.extra.ac}</span>`;
     }
 
