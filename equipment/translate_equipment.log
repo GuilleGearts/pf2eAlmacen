@@ -1,0 +1,693 @@
+Reading traduccion_equipos.xlsx...
+Found 5636 items to translate. Processing...
+C:\Users\guill\OneDrive\Proyectos\PF2E-V2\equipment\translate_equipment.py:75: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'Revista de 8 rondas' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  df.loc[idx, 'Name (ES)'] = name_es
+C:\Users\guill\OneDrive\Proyectos\PF2E-V2\equipment\translate_equipment.py:81: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '<p>Un destructor de barricadas dispara esferas de metal con una velocidad extrema y muy poca precisión.</p>' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  df.loc[idx, 'Description (ES)'] = desc_es
+Translating 1/5636 (0.0%) - 8-Round Magazine
+Translating 10/5636 (0.2%) - Ablative Shield Plating (Lesser)
+Translating 20/5636 (0.4%) - Abysium Ingot
+Translating 30/5636 (0.5%) - Acid Flask (Lesser)
+Translating 40/5636 (0.7%) - Addiction Suppressant (Lesser)
+Translating 50/5636 (0.9%) - Adventurer's Pack
+Autosaving progress at 50/5636...
+Translating 60/5636 (1.1%) - Aeon Stone (Crescent)
+Translating 70/5636 (1.2%) - Aeon Stone (Nourishing)
+Translating 80/5636 (1.4%) - Aeon Stone (Rainbow Prism)
+Translating 90/5636 (1.6%) - Aether Marbles (Lesser)
+Translating 100/5636 (1.8%) - Affliction Suppressant (Moderate)
+Autosaving progress at 100/5636...
+Translating 110/5636 (2.0%) - Alabaster
+Translating 120/5636 (2.1%) - Alchemical Gauntlet
+Translating 130/5636 (2.3%) - Alchemist's Haversack
+Translating 140/5636 (2.5%) - Alicorn Trigger
+Translating 150/5636 (2.7%) - Alluring Scarf (Major)
+Autosaving progress at 150/5636...
+Translating 160/5636 (2.8%) - Amphibious Chair
+Translating 170/5636 (3.0%) - Ancestral Echoing
+Translating 180/5636 (3.2%) - Anglerfish Lantern
+Translating 190/5636 (3.4%) - Animal Pheromones (Lesser)
+Translating 200/5636 (3.5%) - Animal-Turning Fulu
+Autosaving progress at 200/5636...
+Translating 210/5636 (3.7%) - Anti-Dragon Barding (Greater)
+Translating 220/5636 (3.9%) - Antifungal Salve (Moderate)
+Translating 230/5636 (4.1%) - Anylength Rope (Greater)
+Translating 240/5636 (4.3%) - Applereed Mutagen (Moderate)
+Translating 250/5636 (4.4%) - Arboreal Boots
+Autosaving progress at 250/5636...
+Translating 260/5636 (4.6%) - Arcane Standard (Greater)
+Translating 270/5636 (4.8%) - Armbands of the Gorgon
+Translating 280/5636 (5.0%) - Armory Bracelet (Greater)
+Translating 290/5636 (5.1%) - Arrows
+Translating 300/5636 (5.3%) - Ashen
+Autosaving progress at 300/5636...
+Translating 310/5636 (5.5%) - Astringent Venom
+Translating 320/5636 (5.7%) - Atrophy Bomb (Lesser)
+Translating 330/5636 (5.9%) - Auspicious Scepter
+Translating 340/5636 (6.0%) - Axe Musket
+Translating 350/5636 (6.2%) - Backpack Catapult Stones
+Autosaving progress at 350/5636...
+Error translating: <urlopen error [Errno 11001] getaddrinfo failed>
+Error translating: <urlopen error [Errno 11001] getaddrinfo failed>
+Translating 360/5636 (6.4%) - Bagpipes of Turmoil
+[2026-05-03 17:44:06] 
+--- INICIANDO NUEVA SESION DE TRADUCCION ---
+[2026-05-03 17:44:06] Reading traduccion_equipos.xlsx...
+[2026-05-03 17:44:08] Found 5299 items to translate. Processing...
+[2026-05-03 17:44:08] Translating 1/5299 (0.0%) - Agate
+[2026-05-03 17:44:13] Translating 10/5299 (0.2%) - Aquamarine
+[2026-05-03 17:44:31] Translating 20/5299 (0.4%) - Bag of Weasels
+[2026-05-03 17:44:54] Translating 30/5299 (0.6%) - Bandalore
+[2026-05-03 17:45:17] Translating 40/5299 (0.8%) - Bangles of Crowns
+[2026-05-03 17:45:40] Translating 50/5299 (0.9%) - Banner of the Restful
+[2026-05-03 17:45:40] Autosaving progress at 50/5299...
+[2026-05-03 17:46:10] Translating 60/5299 (1.1%) - Barricade Stone (Sphere)
+[2026-05-03 17:46:31] Translating 70/5299 (1.3%) - Baton of the Fallen
+[2026-05-03 17:46:54] Translating 80/5299 (1.5%) - Beacon Shot
+[2026-05-03 17:47:18] Translating 90/5299 (1.7%) - Bedroll
+[2026-05-03 17:47:42] Translating 100/5299 (1.9%) - Bellows Pipes
+[2026-05-03 17:47:42] Autosaving progress at 100/5299...
+[2026-05-03 17:48:09] Translating 110/5299 (2.1%) - Benthic Drums
+[2026-05-03 17:48:35] Translating 120/5299 (2.3%) - Bewitching Bloom (Bellflower)
+[2026-05-03 17:48:57] Translating 130/5299 (2.5%) - Big Rock Bullet (Greater)
+[2026-05-03 17:49:18] Translating 140/5299 (2.6%) - Bitter
+[2026-05-03 17:49:40] Translating 150/5299 (2.8%) - Black Hole Armor
+[2026-05-03 17:49:40] Autosaving progress at 150/5299...
+[2026-05-03 17:50:07] Translating 160/5299 (3.0%) - Black Tendril Shot (Lesser)
+[2026-05-03 17:50:31] Translating 170/5299 (3.2%) - Blade of Four Energies
+[2026-05-03 17:50:55] Translating 180/5299 (3.4%) - Blast Boots (Greater)
+[2026-05-03 17:51:19] Translating 190/5299 (3.6%) - Blasting Stone (Lesser)
+[2026-05-03 17:51:42] Translating 200/5299 (3.8%) - Bleeding Canines
+[2026-05-03 17:51:42] Autosaving progress at 200/5299...
+[2026-05-03 17:52:07] Translating 210/5299 (4.0%) - Blight Breath
+[2026-05-03 17:52:28] Translating 220/5299 (4.2%) - Blister Ammunition (Greater)
+[2026-05-03 17:52:50] Translating 230/5299 (4.3%) - Blood Booster (Lesser)
+[2026-05-03 17:53:14] Translating 240/5299 (4.5%) - Blood Sight Elixir (Moderate)
+[2026-05-03 17:53:41] Translating 250/5299 (4.7%) - Bloodhound Mask (Lesser)
+[2026-05-03 17:53:41] Autosaving progress at 250/5299...
+[2026-05-03 17:54:07] Translating 260/5299 (4.9%) - Bloodstone Doll (Major)
+[2026-05-03 17:54:27] Translating 270/5299 (5.1%) - Blunderbuss
+[2026-05-03 17:54:53] Translating 280/5299 (5.3%) - Bolka's Blessing
+[2026-05-03 17:55:14] Translating 290/5299 (5.5%) - Bonmuan Swapping Stone (Lesser)
+[2026-05-03 17:55:36] Translating 300/5299 (5.7%) - Boots of Bounding (Greater)
+[2026-05-03 17:55:36] Autosaving progress at 300/5299...
+[2026-05-03 17:56:03] Translating 310/5299 (5.9%) - Boots of the Dead
+[2026-05-03 17:56:31] Translating 320/5299 (6.0%) - Bortled Favorite (Moderate)
+[2026-05-03 17:56:57] Translating 330/5299 (6.2%) - Bottled Lightning (Lesser)
+[2026-05-03 17:57:24] Translating 340/5299 (6.4%) - Bottled Sunlight (Moderate)
+[2026-05-03 17:57:52] Translating 350/5299 (6.6%) - Boulderhead Bock
+[2026-05-03 17:57:52] Autosaving progress at 350/5299...
+[2026-05-03 17:58:21] Translating 360/5299 (6.8%) - Box of Unspoiling (Type IV)
+[2026-05-03 17:58:46] Translating 370/5299 (7.0%) - Branch of the Great Sugi
+[2026-05-03 17:59:10] Translating 380/5299 (7.2%) - Bravery Baldric (Greater Healthful)
+[2026-05-03 17:59:37] Translating 390/5299 (7.4%) - Breaching Pike
+[2026-05-03 18:00:02] Translating 400/5299 (7.5%) - Brewer's Regret (Greater)
+[2026-05-03 18:00:02] Autosaving progress at 400/5299...
+[2026-05-03 18:00:31] Translating 410/5299 (7.7%) - Brimstone Fumes
+[2026-05-03 18:00:55] Translating 420/5299 (7.9%) - Broadspear
+[2026-05-03 18:01:15] Translating 430/5299 (8.1%) - Bronze Dragon's Breath Potion (Young)
+[2026-05-03 18:01:41] Translating 440/5299 (8.3%) - Buoyancy Vest
+[2026-05-03 18:02:06] Translating 450/5299 (8.5%) - Burrowing Bolt
+[2026-05-03 18:02:06] Autosaving progress at 450/5299...
+[2026-05-03 18:02:34] Translating 460/5299 (8.7%) - Calamity
+[2026-05-03 18:03:07] Translating 470/5299 (8.9%) - Camouflaging Chromatophores (Lesser)
+[2026-05-03 18:03:37] Translating 480/5299 (9.1%) - Candle of Truth
+[2026-05-03 18:04:05] Translating 490/5299 (9.2%) - Cape of Illumination (Greater)
+[2026-05-03 18:04:33] Translating 500/5299 (9.4%) - Careless Delight
+[2026-05-03 18:04:33] Autosaving progress at 500/5299...
+[2026-05-03 18:05:01] Translating 510/5299 (9.6%) - Cassisian Helmet
+[2026-05-03 18:05:28] Translating 520/5299 (9.8%) - Caustic Deteriorating Dust
+[2026-05-03 18:05:55] Translating 530/5299 (10.0%) - Celestial Hair
+[2026-05-03 18:06:18] Translating 540/5299 (10.2%) - Chain Mail
+[2026-05-03 18:06:44] Translating 550/5299 (10.4%) - Chakram
+[2026-05-03 18:06:44] Autosaving progress at 550/5299...
+[2026-05-03 18:07:11] Translating 560/5299 (10.6%) - Champion's Laurels (Amateur)
+[2026-05-03 18:07:37] Translating 570/5299 (10.8%) - Charlatan's Gloves
+[2026-05-03 18:08:02] Translating 580/5299 (10.9%) - Chilled Fire Noodles (Greater)
+[2026-05-03 18:08:31] Translating 590/5299 (11.1%) - Choral Toga
+[2026-05-03 18:08:57] Translating 600/5299 (11.3%) - Chrysoberyl
+[2026-05-03 18:08:57] Autosaving progress at 600/5299...
+[2026-05-03 18:09:22] Translating 610/5299 (11.5%) - Clan Dagger
+[2026-05-03 18:09:53] Translating 620/5299 (11.7%) - Clay Sphere (Major)
+[2026-05-03 18:10:21] Translating 630/5299 (11.9%) - Clinging Bubbles (Lesser)
+[2026-05-03 18:10:47] Translating 640/5299 (12.1%) - Cloak of Immolation
+[2026-05-03 18:11:14] Translating 650/5299 (12.3%) - Clockwork Bookshelf
+[2026-05-03 18:11:14] Autosaving progress at 650/5299...
+[2026-05-03 18:11:46] Translating 660/5299 (12.5%) - Clockwork Heels
+[2026-05-03 18:12:13] Translating 670/5299 (12.6%) - Clockwork Spider Bomb
+[2026-05-03 18:12:38] Translating 680/5299 (12.8%) - Clothing (Fine)
+[2026-05-03 18:13:03] Translating 690/5299 (13.0%) - Coating
+[2026-05-03 18:13:30] Translating 700/5299 (13.2%) - Cognitive Mutagen (Moderate)
+[2026-05-03 18:13:30] Autosaving progress at 700/5299...
+[2026-05-03 18:13:58] Translating 710/5299 (13.4%) - Collar of Empathy
+[2026-05-03 18:14:25] Translating 720/5299 (13.6%) - Colorful Coating (Violet)
+[2026-05-03 18:14:54] Translating 730/5299 (13.8%) - Communication Bangle
+[2026-05-03 18:15:19] Translating 740/5299 (14.0%) - Composite Shortbow
+[2026-05-03 18:15:50] Translating 750/5299 (14.2%) - Conductor's Instrument
+[2026-05-03 18:15:50] Autosaving progress at 750/5299...
+[2026-05-03 18:16:22] Translating 760/5299 (14.3%) - Constricting Meteor
+[2026-05-03 18:16:45] Translating 770/5299 (14.5%) - Cooling Elixir (Lesser)
+[2026-05-03 18:17:12] Translating 780/5299 (14.7%) - Coral idol of an elemental lord
+[2026-05-03 18:17:38] Translating 790/5299 (14.9%) - Corrective Lenses
+[2026-05-03 18:18:06] Translating 800/5299 (15.1%) - Courtier's Pillow Book
+[2026-05-03 18:18:06] Autosaving progress at 800/5299...
+[2026-05-03 18:18:34] Translating 810/5299 (15.3%) - Crafter's Eyepiece
+[2026-05-03 18:19:02] Translating 820/5299 (15.5%) - Crimson Godsblood Serum (Moderate)
+[2026-05-03 18:19:29] Translating 830/5299 (15.7%) - Crown of the Companion
+[2026-05-03 18:19:54] Translating 840/5299 (15.9%) - Crushing
+[2026-05-03 18:20:22] Translating 850/5299 (16.0%) - Crystal Ball (Moonstone)
+[2026-05-03 18:20:22] Autosaving progress at 850/5299...
+[2026-05-03 18:20:50] Translating 860/5299 (16.2%) - Cube of Nex
+[2026-05-03 18:21:14] Translating 870/5299 (16.4%) - Cursed Dreamstone
+[2026-05-03 18:21:36] Translating 880/5299 (16.6%) - Cyrusian Wand (7th-Rank Spell)
+[2026-05-03 18:21:59] Translating 890/5299 (16.8%) - Daikyu
+[2026-05-03 18:22:24] Translating 900/5299 (17.0%) - Darkvision Elixir (Greater)
+[2026-05-03 18:22:24] Autosaving progress at 900/5299...
+[2026-05-03 18:22:52] Translating 910/5299 (17.2%) - Dawnflower Beads
+[2026-05-03 18:23:19] Translating 920/5299 (17.4%) - Dazzling Rosary (Greater)
+[2026-05-03 18:23:46] Translating 930/5299 (17.6%) - Deadweight Snare
+[2026-05-03 18:24:13] Translating 940/5299 (17.7%) - Decanter of Endless Water
+[2026-05-03 18:24:39] Translating 950/5299 (17.9%) - Defiled Costa (Greater)
+[2026-05-03 18:24:39] Autosaving progress at 950/5299...
+[2026-05-03 18:25:04] Translating 960/5299 (18.1%) - Demolition Fulu (Greater)
+[2026-05-03 18:25:29] Translating 970/5299 (18.3%) - Demon's Knot
+[2026-05-03 18:25:55] Translating 980/5299 (18.5%) - Depth Charge VII
+[2026-05-03 18:26:23] Translating 990/5299 (18.7%) - Detonating Gears Snare
+[2026-05-03 18:26:49] Translating 1000/5299 (18.9%) - Diamond, large
+[2026-05-03 18:26:49] Autosaving progress at 1000/5299...
+[2026-05-03 18:27:19] Translating 1010/5299 (19.1%) - Dimensional Cleavestone
+[2026-05-03 18:27:48] Translating 1020/5299 (19.2%) - Disguise Kit (Elite)
+[2026-05-03 18:28:11] Translating 1030/5299 (19.4%) - Divine art piece created by Shelyn
+[2026-05-03 18:28:39] Translating 1040/5299 (19.6%) - Doll (Exquisite surprise)
+[2026-05-03 18:29:08] Translating 1050/5299 (19.8%) - Doubling Rings
+[2026-05-03 18:29:08] Autosaving progress at 1050/5299...
+[2026-05-03 18:29:39] Translating 1060/5299 (20.0%) - Dragon Eye
+[2026-05-03 18:30:06] Translating 1070/5299 (20.2%) - Dragon Shield
+[2026-05-03 18:30:36] Translating 1080/5299 (20.4%) - Dragonfire Halfbow
+[2026-05-03 18:31:04] Translating 1090/5299 (20.6%) - Dragon's Breath (1st Level Spell)
+[2026-05-03 18:31:27] Translating 1100/5299 (20.8%) - Dragon's Eye Charm
+[2026-05-03 18:31:27] Autosaving progress at 1100/5299...
+[2026-05-03 18:32:00] Translating 1110/5299 (20.9%) - Dragontooth Leiomano
+[2026-05-03 18:32:31] Translating 1120/5299 (21.1%) - Drakeheart Mutagen (Moderate)
+[2026-05-03 18:33:00] Translating 1130/5299 (21.3%) - Dread (Lesser)
+[2026-05-03 18:33:31] Translating 1140/5299 (21.5%) - Drop of Convergent Waters
+[2026-05-03 18:34:04] Translating 1150/5299 (21.7%) - Duchy Defender
+[2026-05-03 18:34:04] Autosaving progress at 1150/5299...
+[2026-05-03 18:34:35] Translating 1160/5299 (21.9%) - Durian Bomb (Moderate)
+[2026-05-03 18:35:02] Translating 1170/5299 (22.1%) - Duty of the Oathsworn
+[2026-05-03 18:35:31] Translating 1180/5299 (22.3%) - Eagle Eye Elixir (Lesser)
+[2026-05-03 18:35:59] Translating 1190/5299 (22.5%) - Ebon Fulcrum Lens
+[2026-05-03 18:36:30] Translating 1200/5299 (22.6%) - Eidetic Potion
+[2026-05-03 18:36:30] Autosaving progress at 1200/5299...
+[2026-05-03 18:37:06] Translating 1210/5299 (22.8%) - Elemental Ammunition (Greater, Cold)
+[2026-05-03 18:37:36] Translating 1220/5299 (23.0%) - Elemental Ammunition (Moderate, Cold)
+[2026-05-03 18:38:05] Translating 1230/5299 (23.2%) - Elemental Wayfinder (Fire)
+[2026-05-03 18:38:31] Translating 1240/5299 (23.4%) - Elixir of Life (True)
+[2026-05-03 18:38:59] Translating 1250/5299 (23.6%) - Elven Chain (Standard-Grade)
+[2026-05-03 18:38:59] Autosaving progress at 1250/5299...
+[2026-05-03 18:39:29] Translating 1260/5299 (23.8%) - Emerald
+[2026-05-03 18:39:54] Translating 1270/5299 (24.0%) - Empty Hand Marking
+[2026-05-03 18:40:20] Translating 1280/5299 (24.2%) - Energized Shield (Lesser)
+[2026-05-03 18:40:46] Translating 1290/5299 (24.3%) - Energy Adaptive
+[2026-05-03 18:41:22] Translating 1300/5299 (24.5%) - Energy Breath Potion (Fire, Greater)
+[2026-05-03 18:41:22] Autosaving progress at 1300/5299...
+[2026-05-03 18:41:59] Translating 1310/5299 (24.7%) - Energy-Resistant (Greater)
+[2026-05-03 18:42:27] Translating 1320/5299 (24.9%) - Engulfing Snare
+[2026-05-03 18:42:56] Translating 1330/5299 (25.1%) - Entertainer's Cincture (Greater)
+[2026-05-03 18:43:29] Translating 1340/5299 (25.3%) - Erraticannon
+[2026-05-03 18:43:59] Translating 1350/5299 (25.5%) - Eternal Eruption of Blackpeak
+[2026-05-03 18:43:59] Autosaving progress at 1350/5299...
+[2026-05-03 18:44:34] Translating 1360/5299 (25.7%) - Etheric Essence Disruptor (Greater)
+[2026-05-03 18:45:04] Translating 1370/5299 (25.9%) - Everair Mask (Major)
+[2026-05-03 18:45:37] Translating 1380/5299 (26.0%) - Experimental Clothing
+[2026-05-03 18:46:06] Translating 1390/5299 (26.2%) - Explosive Mine (Greater)
+[2026-05-03 18:46:36] Translating 1400/5299 (26.4%) - Exsanguinating Ammunition
+[2026-05-03 18:46:36] Autosaving progress at 1400/5299...
+[2026-05-03 18:47:10] Translating 1410/5299 (26.6%) - Exuviae Powder
+[2026-05-03 18:47:38] Translating 1420/5299 (26.8%) - Eye Slash (Major)
+[2026-05-03 18:48:08] Translating 1430/5299 (27.0%) - Faith Tattoo (True)
+[2026-05-03 18:48:34] Translating 1440/5299 (27.2%) - False Hope
+[2026-05-03 18:49:03] Translating 1450/5299 (27.4%) - Fang Snare
+[2026-05-03 18:49:03] Autosaving progress at 1450/5299...
+[2026-05-03 18:49:33] Translating 1460/5299 (27.6%) - Faultline Hammer
+[2026-05-03 18:49:58] Translating 1470/5299 (27.7%) - Feast of Hungry Ghosts
+[2026-05-03 18:50:26] Translating 1480/5299 (27.9%) - Feather Token (Ladder) (Ammunition)
+[2026-05-03 18:50:55] Translating 1490/5299 (28.1%) - Feral Linguist (Greater)
+[2026-05-03 18:51:27] Translating 1500/5299 (28.3%) - Feyfoul (Greater)
+[2026-05-03 18:51:27] Autosaving progress at 1500/5299...
+[2026-05-03 18:52:02] Translating 1510/5299 (28.5%) - Fife of the Faithful
+[2026-05-03 18:52:30] Translating 1520/5299 (28.7%) - Fine gold spyglass
+[2026-05-03 18:52:58] Translating 1530/5299 (28.9%) - Firearm Cleaning Kit
+[2026-05-03 18:53:30] Translating 1540/5299 (29.1%) - Fishing Tackle (Professional)
+[2026-05-03 18:53:59] Translating 1550/5299 (29.3%) - Flaming (Greater)
+[2026-05-03 18:53:59] Autosaving progress at 1550/5299...
+[2026-05-03 18:54:32] Translating 1560/5299 (29.4%) - Flash Beetle Lantern
+[2026-05-03 18:55:02] Translating 1570/5299 (29.6%) - Fleshgem (Earthspeaker)
+[2026-05-03 18:55:31] Translating 1580/5299 (29.8%) - Floating Tent (Pup)
+[2026-05-03 18:55:58] Translating 1590/5299 (30.0%) - Flurrying
+[2026-05-03 18:56:23] Translating 1600/5299 (30.2%) - Follypops
+[2026-05-03 18:56:23] Autosaving progress at 1600/5299...
+[2026-05-03 18:56:58] Translating 1610/5299 (30.4%) - Forked Bipod
+[2026-05-03 18:57:23] Translating 1620/5299 (30.6%) - Fortune's Coin
+[2026-05-03 18:57:48] Translating 1630/5299 (30.8%) - Fox Marble
+[2026-05-03 18:58:16] Translating 1640/5299 (30.9%) - Frenzy Oil
+[2026-05-03 18:58:42] Translating 1650/5299 (31.1%) - Frost Vial (Lesser)
+[2026-05-03 18:58:42] Autosaving progress at 1650/5299...
+[2026-05-03 18:59:10] Translating 1660/5299 (31.3%) - Frozen Lava of Mhar Massif
+[2026-05-03 18:59:40] Translating 1670/5299 (31.5%) - Fulu Compendium
+[2026-05-03 19:00:05] Translating 1680/5299 (31.7%) - Furnace of Endings (Lesser)
+[2026-05-03 19:00:31] Translating 1690/5299 (31.9%) - Gakgung
+[2026-05-03 19:00:59] Translating 1700/5299 (32.1%) - Ganjay Book (Light bulk book)
+[2026-05-03 19:00:59] Autosaving progress at 1700/5299...
+[2026-05-03 19:01:30] Translating 1710/5299 (32.3%) - Gauntlet Bow
+[2026-05-03 19:01:52] Translating 1720/5299 (32.5%) - Gecko Potion
+[2026-05-03 19:02:21] Translating 1730/5299 (32.6%) - Ghost Charge (Lesser)
+[2026-05-03 19:02:47] Translating 1740/5299 (32.8%) - Ghost Scarf
+[2026-05-03 19:03:17] Translating 1750/5299 (33.0%) - Ghoul Hide
+[2026-05-03 19:03:17] Autosaving progress at 1750/5299...
+[2026-05-03 19:03:47] Translating 1760/5299 (33.2%) - Gift of Olives
+[2026-05-03 19:04:12] Translating 1770/5299 (33.4%) - Glaive of the Artist
+[2026-05-03 19:04:39] Translating 1780/5299 (33.6%) - Glittering Scarab
+[2026-05-03 19:05:06] Translating 1790/5299 (33.8%) - Glue Bomb (Greater)
+[2026-05-03 19:05:31] Translating 1800/5299 (34.0%) - Goblin-Eye Orb
+[2026-05-03 19:05:31] Autosaving progress at 1800/5299...
+[2026-05-03 19:05:54] Translating 1810/5299 (34.2%) - Gold necklace with peridots
+[2026-05-03 19:06:17] Translating 1820/5299 (34.3%) - Golden-Cased Bullet (Major)
+[2026-05-03 19:06:40] Translating 1830/5299 (34.5%) - Golden Spur
+[2026-05-03 19:07:05] Translating 1840/5299 (34.7%) - Gossamer Sash
+[2026-05-03 19:07:28] Translating 1850/5299 (34.9%) - Grappling Gun (Clockwork)
+[2026-05-03 19:07:28] Autosaving progress at 1850/5299...
+[2026-05-03 19:07:54] Translating 1860/5299 (35.1%) - Gravity Inverter
+[2026-05-03 19:08:15] Translating 1870/5299 (35.3%) - Green Dragon's Breath Potion (Adult)
+[2026-05-03 19:08:37] Translating 1880/5299 (35.5%) - Grim Trophy (Greater)
+[2026-05-03 19:09:05] Translating 1890/5299 (35.7%) - Grounding Spike
+[2026-05-03 19:09:29] Translating 1900/5299 (35.9%) - Guardian Shield
+[2026-05-03 19:09:29] Autosaving progress at 1900/5299...
+[2026-05-03 19:09:57] Translating 1910/5299 (36.0%) - Guisarme
+[2026-05-03 19:10:21] Translating 1920/5299 (36.2%) - Hagbane Biscuit
+[2026-05-03 19:10:45] Translating 1930/5299 (36.4%) - Hampering Snare
+[2026-05-03 19:11:08] Translating 1940/5299 (36.6%) - Handcuffs (Superior)
+[2026-05-03 19:11:31] Translating 1950/5299 (36.8%) - Harnessed Shield
+[2026-05-03 19:11:31] Autosaving progress at 1950/5299...
+[2026-05-03 19:11:58] Translating 1960/5299 (37.0%) - Hat of Many Minds
+[2026-05-03 19:12:20] Translating 1970/5299 (37.2%) - Healer's Gloves (Greater)
+[2026-05-03 19:12:43] Translating 1980/5299 (37.4%) - Healing Vapor (Lesser)
+[2026-05-03 19:13:06] Translating 1990/5299 (37.6%) - Heartmoss (Greater)
+[2026-05-03 19:13:28] Translating 2000/5299 (37.7%) - Heavy Rondache
+[2026-05-03 19:13:28] Autosaving progress at 2000/5299...
+[2026-05-03 19:13:57] Translating 2010/5299 (37.9%) - Helm Of Zeal (Greater)
+[2026-05-03 19:14:20] Translating 2020/5299 (38.1%) - Hero's Plate (Greater)
+[2026-05-03 19:14:44] Translating 2030/5299 (38.3%) - Highhelm Drill Mark I
+[2026-05-03 19:15:08] Translating 2040/5299 (38.5%) - Hive Mother Bottle
+[2026-05-03 19:15:34] Translating 2050/5299 (38.7%) - Holy Steam Ball
+[2026-05-03 19:15:34] Autosaving progress at 2050/5299...
+[2026-05-03 19:16:02] Translating 2060/5299 (38.9%) - Hook Sword
+[2026-05-03 19:16:26] Translating 2070/5299 (39.1%) - Horned Dragon Breath Potion
+[2026-05-03 19:16:50] Translating 2080/5299 (39.3%) - Hourglass
+[2026-05-03 19:17:15] Translating 2090/5299 (39.4%) - Hunter's Arrowhead
+[2026-05-03 19:17:39] Translating 2100/5299 (39.6%) - Hyldarf's Fang
+[2026-05-03 19:17:39] Autosaving progress at 2100/5299...
+[2026-05-03 19:18:05] Translating 2110/5299 (39.8%) - Illusory Backdrop
+[2026-05-03 19:18:29] Translating 2120/5299 (40.0%) - Immovable Tripod
+[2026-05-03 19:18:51] Translating 2130/5299 (40.2%) - Impenetrable Scale
+[2026-05-03 19:19:15] Translating 2140/5299 (40.4%) - Impulse Control
+[2026-05-03 19:19:43] Translating 2150/5299 (40.6%) - Infernal Health
+[2026-05-03 19:19:43] Autosaving progress at 2150/5299...
+[2026-05-03 19:20:11] Translating 2160/5299 (40.8%) - Inquisitive Quill
+[2026-05-03 19:20:34] Translating 2170/5299 (41.0%) - Inspiring Spotlight
+[2026-05-03 19:20:59] Translating 2180/5299 (41.1%) - Instructions for Lasting Agony
+[2026-05-03 19:21:23] Translating 2190/5299 (41.3%) - Invisible Chain Shirt
+[2026-05-03 19:21:47] Translating 2200/5299 (41.5%) - Irondust Stew
+[2026-05-03 19:21:47] Autosaving progress at 2200/5299...
+[2026-05-03 19:22:16] Translating 2210/5299 (41.7%) - IxamÃ¨'s Eye
+[2026-05-03 19:22:39] Translating 2220/5299 (41.9%) - Jasper
+[2026-05-03 19:23:00] Translating 2230/5299 (42.1%) - Jeweled dawnsilver crown
+[2026-05-03 19:23:23] Translating 2240/5299 (42.3%) - Jolt Coil (Major)
+[2026-05-03 19:23:48] Translating 2250/5299 (42.5%) - Juggernaut Mutagen (Lesser)
+[2026-05-03 19:23:48] Autosaving progress at 2250/5299...
+[2026-05-03 19:24:16] Translating 2260/5299 (42.6%) - Juxtaposition Ammunition
+[2026-05-03 19:24:38] Translating 2270/5299 (42.8%) - Karambit
+[2026-05-03 19:25:01] Translating 2280/5299 (43.0%) - Keymaking Tools
+[2026-05-03 19:25:24] Translating 2290/5299 (43.2%) - Kinetic Club
+[2026-05-03 19:25:51] Translating 2300/5299 (43.4%) - Knave's Standard (Major)
+[2026-05-03 19:25:51] Autosaving progress at 2300/5299...
+[2026-05-03 19:26:22] Translating 2310/5299 (43.6%) - Kora of the Unending Story
+[2026-05-03 19:26:46] Translating 2320/5299 (43.8%) - Kukri
+[2026-05-03 19:27:10] Translating 2330/5299 (44.0%) - Lamellar Breastplate
+[2026-05-03 19:27:30] Translating 2340/5299 (44.2%) - Lapis lazuli pendant
+[2026-05-03 19:27:56] Translating 2350/5299 (44.3%) - Lawbringer's Lasso
+[2026-05-03 19:27:56] Autosaving progress at 2350/5299...
+[2026-05-03 19:28:23] Translating 2360/5299 (44.5%) - Leeching Fangs
+[2026-05-03 19:28:45] Translating 2370/5299 (44.7%) - Liar's Lexicon
+[2026-05-03 19:29:10] Translating 2380/5299 (44.9%) - Life-Boosting Oil (Greater)
+[2026-05-03 19:29:37] Translating 2390/5299 (45.1%) - Life Shot (Minor)
+[2026-05-03 19:30:00] Translating 2400/5299 (45.3%) - Light Hammer
+[2026-05-03 19:30:00] Autosaving progress at 2400/5299...
+[2026-05-03 19:30:31] Translating 2410/5299 (45.5%) - Limning Gem
+[2026-05-03 19:30:55] Translating 2420/5299 (45.7%) - Lion's Armor (Greater)
+[2026-05-03 19:31:17] Translating 2430/5299 (45.9%) - Liver Bloodstone of Arazni
+[2026-05-03 19:31:40] Translating 2440/5299 (46.0%) - Locket of Love Left Behind
+[2026-05-03 19:32:02] Translating 2450/5299 (46.2%) - Longnight Tea
+[2026-05-03 19:32:02] Autosaving progress at 2450/5299...
+[2026-05-03 19:32:28] Translating 2460/5299 (46.4%) - Luckless Dice
+[2026-05-03 19:32:49] Translating 2470/5299 (46.6%) - Lung Bloodstone of Arazni
+[2026-05-03 19:33:14] Translating 2480/5299 (46.8%) - Maelstromic Destabilizer (Lesser)
+[2026-05-03 19:33:42] Translating 2490/5299 (47.0%) - Mage's Hat (Greater)
+[2026-05-03 19:34:01] Translating 2500/5299 (47.2%) - Magic Wand (8th-Rank Spell)
+[2026-05-03 19:34:01] Autosaving progress at 2500/5299...
+[2026-05-03 19:34:30] Translating 2510/5299 (47.4%) - Magnet Coin
+[2026-05-03 19:34:56] Translating 2520/5299 (47.6%) - Magnetite Scope (Greater)
+[2026-05-03 19:35:19] Translating 2530/5299 (47.7%) - Major Painting by a Legend
+[2026-05-03 19:35:42] Translating 2540/5299 (47.9%) - Mamlambo Scale
+[2026-05-03 19:36:07] Translating 2550/5299 (48.1%) - Mantis Embrace (Greater)
+[2026-05-03 19:36:07] Autosaving progress at 2550/5299...
+[2026-05-03 19:36:34] Translating 2560/5299 (48.3%) - Mariner's Splint
+[2026-05-03 19:37:00] Translating 2570/5299 (48.5%) - Marvelous Miniature (Campfire)
+[2026-05-03 19:37:25] Translating 2580/5299 (48.7%) - Mask of the Mantis (Greater)
+[2026-05-03 19:37:50] Translating 2590/5299 (48.9%) - Mat of Resilience (Greater)
+[2026-05-03 19:38:14] Translating 2600/5299 (49.1%) - Maul-spade
+[2026-05-03 19:38:14] Autosaving progress at 2600/5299...
+[2026-05-03 19:38:43] Translating 2610/5299 (49.3%) - Membership Cords
+[2026-05-03 19:39:08] Translating 2620/5299 (49.4%) - Mentalist's Staff (Major)
+[2026-05-03 19:39:31] Translating 2630/5299 (49.6%) - Messenger Missive (Multiple)
+[2026-05-03 19:39:52] Translating 2640/5299 (49.8%) - Meteor Shot (Major)
+[2026-05-03 19:40:19] Translating 2650/5299 (50.0%) - Midnight Milk (Refined)
+[2026-05-03 19:40:19] Autosaving progress at 2650/5299...
+[2026-05-03 19:40:47] Translating 2660/5299 (50.2%) - Mindsponge
+[2026-05-03 19:41:13] Translating 2670/5299 (50.4%) - Mirror of Sleeping Vigil
+[2026-05-03 19:41:35] Translating 2680/5299 (50.6%) - Mistranslator's Draft
+[2026-05-03 19:42:00] Translating 2690/5299 (50.8%) - Monkey's Fist
+[2026-05-03 19:42:26] Translating 2700/5299 (51.0%) - Moonlit Spellgun (Greater)
+[2026-05-03 19:42:26] Autosaving progress at 2700/5299...
+[2026-05-03 19:42:50] Translating 2710/5299 (51.1%) - Moritype
+[2026-05-03 19:43:14] Translating 2720/5299 (51.3%) - Motivating Treat Bag
+[2026-05-03 19:43:37] Translating 2730/5299 (51.5%) - Mug
+[2026-05-03 19:44:00] Translating 2740/5299 (51.7%) - Mustard Powder
+[2026-05-03 19:44:26] Translating 2750/5299 (51.9%) - Mythotoxin
+[2026-05-03 19:44:26] Autosaving progress at 2750/5299...
+[2026-05-03 19:44:53] Translating 2760/5299 (52.1%) - Navigator's Feather
+[2026-05-03 19:45:18] Translating 2770/5299 (52.3%) - Necklace of Knives
+[2026-05-03 19:45:42] Translating 2780/5299 (52.5%) - Necrotic Cap (Moderate)
+[2026-05-03 19:46:07] Translating 2790/5299 (52.7%) - Nettleweed Residue
+[2026-05-03 19:46:32] Translating 2800/5299 (52.8%) - Nightmare
+[2026-05-03 19:46:32] Autosaving progress at 2800/5299...
+[2026-05-03 19:46:59] Translating 2810/5299 (53.0%) - Noqual Chunk
+[2026-05-03 19:47:23] Translating 2820/5299 (53.2%) - Numbing Tonic (Lesser)
+[2026-05-03 19:47:45] Translating 2830/5299 (53.4%) - Oath of the Devoted
+[2026-05-03 19:48:08] Translating 2840/5299 (53.6%) - Obsidian Goggles (Major)
+[2026-05-03 19:48:30] Translating 2850/5299 (53.8%) - Ogre Hook
+[2026-05-03 19:48:30] Autosaving progress at 2850/5299...
+[2026-05-03 19:48:58] Translating 2860/5299 (54.0%) - Oil of Ownership (Lesser)
+[2026-05-03 19:49:23] Translating 2870/5299 (54.2%) - Oil of Unlife (Lesser)
+[2026-05-03 19:49:49] Translating 2880/5299 (54.3%) - Olfactory Obfuscator (Lesser)
+[2026-05-03 19:50:11] Translating 2890/5299 (54.5%) - Ooze Ammunition (Greater)
+[2026-05-03 19:50:32] Translating 2900/5299 (54.7%) - Oracular Hag Eye
+[2026-05-03 19:50:32] Autosaving progress at 2900/5299...
+[2026-05-03 19:50:57] Translating 2910/5299 (54.9%) - Origin Unguent
+[2026-05-03 19:51:22] Translating 2920/5299 (55.1%) - Owl Screech Egg
+[2026-05-03 19:51:46] Translating 2930/5299 (55.3%) - Paired (Greater)
+[2026-05-03 19:52:11] Translating 2940/5299 (55.5%) - Panabas
+[2026-05-03 19:52:36] Translating 2950/5299 (55.7%) - Paradise Light
+[2026-05-03 19:52:36] Autosaving progress at 2950/5299...
+[2026-05-03 19:53:05] Translating 2960/5299 (55.9%) - Paws of the Grogrisant
+[2026-05-03 19:53:27] Translating 2970/5299 (56.0%) - Pelt of the Beast
+[2026-05-03 19:53:53] Translating 2980/5299 (56.2%) - Perfected Robes
+[2026-05-03 19:54:16] Translating 2990/5299 (56.4%) - Persona Mask (Greater)
+[2026-05-03 19:54:39] Translating 3000/5299 (56.6%) - Phantasmal Doorknob
+[2026-05-03 19:54:39] Autosaving progress at 3000/5299...
+[2026-05-03 19:55:02] Translating 3010/5299 (56.8%) - Philosopher's Extractor
+[2026-05-03 19:55:27] Translating 3020/5299 (57.0%) - Pick
+[2026-05-03 19:55:50] Translating 3030/5299 (57.2%) - Pilgrim's Token
+[2026-05-03 19:56:15] Translating 3040/5299 (57.4%) - Pistol of Wonder
+[2026-05-03 19:56:39] Translating 3050/5299 (57.6%) - Plate of Yled (Greater)
+[2026-05-03 19:56:39] Autosaving progress at 3050/5299...
+[2026-05-03 19:57:04] Translating 3060/5299 (57.7%) - Playing Cards
+[2026-05-03 19:57:27] Translating 3070/5299 (57.9%) - Poison Concentrator (Moderate)
+[2026-05-03 19:57:51] Translating 3080/5299 (58.1%) - Poisonous Cloak Type II
+[2026-05-03 19:58:15] Translating 3090/5299 (58.3%) - Popdust
+[2026-05-03 19:58:35] Translating 3100/5299 (58.5%) - Portable Seal (Major)
+[2026-05-03 19:58:35] Autosaving progress at 3100/5299...
+[2026-05-03 19:59:01] Translating 3110/5299 (58.7%) - Potion of Acid Resistance (Lesser)
+[2026-05-03 19:59:23] Translating 3120/5299 (58.9%) - Potion of Cold Resistance (Greater)
+[2026-05-03 19:59:46] Translating 3130/5299 (59.1%) - Potion of Disguise (Moderate)
+[2026-05-03 20:00:10] Translating 3140/5299 (59.3%) - Potion of Fire Resistance (Greater)
+[2026-05-03 20:00:37] Translating 3150/5299 (59.4%) - Potion of Grounding
+[2026-05-03 20:00:37] Autosaving progress at 3150/5299...
+[2026-05-03 20:01:05] Translating 3160/5299 (59.6%) - Potion of Sonic Resistance (Greater)
+[2026-05-03 20:01:28] Translating 3170/5299 (59.8%) - Potion Patch (Greater)
+[2026-05-03 20:01:52] Translating 3180/5299 (60.0%) - Preordained Spear
+[2026-05-03 20:02:15] Translating 3190/5299 (60.2%) - Pressure Bomb (Moderate)
+[2026-05-03 20:02:37] Translating 3200/5299 (60.4%) - Primeval Mistletoe
+[2026-05-03 20:02:37] Autosaving progress at 3200/5299...
+[2026-05-03 20:03:04] Translating 3210/5299 (60.6%) - Probing Cane
+[2026-05-03 20:03:27] Translating 3220/5299 (60.8%) - Psychic Brigandine
+[2026-05-03 20:03:52] Translating 3230/5299 (61.0%) - Purgatory Emissary's Staff
+[2026-05-03 20:04:17] Translating 3240/5299 (61.1%) - Puzzle Box (Challenging)
+[2026-05-03 20:04:40] Translating 3250/5299 (61.3%) - Qat
+[2026-05-03 20:04:40] Autosaving progress at 3250/5299...
+[2026-05-03 20:05:06] Translating 3260/5299 (61.5%) - Queasy Lantern (Lesser)
+[2026-05-03 20:05:32] Translating 3270/5299 (61.7%) - Quick Wig
+[2026-05-03 20:05:59] Translating 3280/5299 (61.9%) - Quickstrike
+[2026-05-03 20:06:25] Translating 3290/5299 (62.1%) - Rainbow Vinegar (Greater)
+[2026-05-03 20:06:48] Translating 3300/5299 (62.3%) - Ration Tonic (Greater)
+[2026-05-03 20:06:48] Autosaving progress at 3300/5299...
+[2026-05-03 20:07:16] Translating 3310/5299 (62.5%) - Razmiri Mask
+[2026-05-03 20:07:40] Translating 3320/5299 (62.7%) - Ready (Greater)
+[2026-05-03 20:08:04] Translating 3330/5299 (62.8%) - Rebound Fulu
+[2026-05-03 20:08:27] Translating 3340/5299 (63.0%) - Red-Rib Gill Mask (Greater)
+[2026-05-03 20:08:49] Translating 3350/5299 (63.2%) - Reducer Round
+[2026-05-03 20:08:49] Autosaving progress at 3350/5299...
+[2026-05-03 20:09:17] Translating 3360/5299 (63.4%) - Regalia Implement
+[2026-05-03 20:09:42] Translating 3370/5299 (63.6%) - Reinforcing Rune (Supreme)
+[2026-05-03 20:10:02] Translating 3380/5299 (63.8%) - Repair Toolkit
+[2026-05-03 20:10:23] Translating 3390/5299 (64.0%) - Replacement Filter (Level 5)
+[2026-05-03 20:10:46] Translating 3400/5299 (64.2%) - Resonating Fork (Major)
+[2026-05-03 20:10:46] Autosaving progress at 3400/5299...
+[2026-05-03 20:11:12] Translating 3410/5299 (64.4%) - Retaliation (Moderate)
+[2026-05-03 20:11:37] Translating 3420/5299 (64.5%) - Revealing Mist (Greater)
+[2026-05-03 20:11:59] Translating 3430/5299 (64.7%) - Rhoka Sword
+[2026-05-03 20:12:24] Translating 3440/5299 (64.9%) - Rime Foil
+[2026-05-03 20:12:50] Translating 3450/5299 (65.1%) - Ring of Minor Arcana
+[2026-05-03 20:12:50] Autosaving progress at 3450/5299...
+[2026-05-03 20:13:17] Translating 3460/5299 (65.3%) - Ring of Stoneshifting
+[2026-05-03 20:13:41] Translating 3470/5299 (65.5%) - Ring of Wizardry (Type I)
+[2026-05-03 20:14:04] Translating 3480/5299 (65.7%) - Robe of Eyes
+[2026-05-03 20:14:28] Translating 3490/5299 (65.9%) - Roc-Shaft Arrow (Lesser)
+[2026-05-03 20:14:53] Translating 3500/5299 (66.1%) - Rooting (Major)
+[2026-05-03 20:14:53] Autosaving progress at 3500/5299...
+[2026-05-03 20:15:17] Translating 3510/5299 (66.2%) - Rounds (Arquebus)
+[2026-05-03 20:15:32] Translating 3520/5299 (66.4%) - Rounds (Double-Barreled Pistol)
+[2026-05-03 20:15:49] Translating 3530/5299 (66.6%) - Rounds (Gun Sword)
+[2026-05-03 20:16:04] Translating 3540/5299 (66.8%) - Rounds (Shobhad Longrifle)
+[2026-05-03 20:16:26] Translating 3550/5299 (67.0%) - Ruby Capacitor
+[2026-05-03 20:16:26] Autosaving progress at 3550/5299...
+[2026-05-03 20:16:47] Translating 3560/5299 (67.2%) - Rune of Sin (Sloth)
+[2026-05-03 20:17:11] Translating 3570/5299 (67.4%) - Rusting Ammunition (Greater)
+[2026-05-03 20:17:37] Translating 3580/5299 (67.6%) - Sage's Bloom
+[2026-05-03 20:18:00] Translating 3590/5299 (67.7%) - Salve of Antiparalysis
+[2026-05-03 20:18:25] Translating 3600/5299 (67.9%) - Sanguine Fang (Major)
+[2026-05-03 20:18:25] Autosaving progress at 3600/5299...
+[2026-05-03 20:18:53] Translating 3610/5299 (68.1%) - Sanitizing Pin
+[2026-05-03 20:19:14] Translating 3620/5299 (68.3%) - Sapphire
+[2026-05-03 20:19:36] Translating 3630/5299 (68.5%) - Saurian Spike (Major)
+[2026-05-03 20:20:02] Translating 3640/5299 (68.7%) - Scapular of Shields
+[2026-05-03 20:20:26] Translating 3650/5299 (68.9%) - Scizore of the Crab
+[2026-05-03 20:20:26] Autosaving progress at 3650/5299...
+[2026-05-03 20:20:50] Translating 3660/5299 (69.1%) - Screech Shooter (Major)
+[2026-05-03 20:21:09] Translating 3670/5299 (69.3%) - Scroll of 6th-rank Spell
+[2026-05-03 20:21:29] Translating 3680/5299 (69.4%) - Sea Touch Elixir (Moderate)
+[2026-05-03 20:21:50] Translating 3690/5299 (69.6%) - Secret-Keeper's Mask (Father Skinsaw)
+[2026-05-03 20:22:14] Translating 3700/5299 (69.8%) - Self-Immolating Note
+[2026-05-03 20:22:14] Autosaving progress at 3700/5299...
+[2026-05-03 20:22:42] Translating 3710/5299 (70.0%) - Serene Mutagen (Moderate)
+[2026-05-03 20:23:06] Translating 3720/5299 (70.2%) - Serum of Sex Shift
+[2026-05-03 20:23:27] Translating 3730/5299 (70.4%) - Shacklebreaker (Greater)
+[2026-05-03 20:23:51] Translating 3740/5299 (70.6%) - Shadow Shroud
+[2026-05-03 20:24:16] Translating 3750/5299 (70.8%) - Shard of the Third Seal
+[2026-05-03 20:24:16] Autosaving progress at 3750/5299...
+[2026-05-03 20:24:43] Translating 3760/5299 (71.0%) - Shawl of Seasons
+[2026-05-03 20:25:05] Translating 3770/5299 (71.1%) - Shield Pistol
+[2026-05-03 20:25:30] Translating 3780/5299 (71.3%) - Shining Symbol (Greater)
+[2026-05-03 20:25:53] Translating 3790/5299 (71.5%) - Shoony Shovel
+[2026-05-03 20:26:16] Translating 3800/5299 (71.7%) - Shrinking Potion (Greater)
+[2026-05-03 20:26:16] Autosaving progress at 3800/5299...
+[2026-05-03 20:26:41] Translating 3810/5299 (71.9%) - Siege Shield
+[2026-05-03 20:27:03] Translating 3820/5299 (72.1%) - Sihedron Medallion
+[2026-05-03 20:27:28] Translating 3830/5299 (72.3%) - Silk fan decorated with turquoise
+[2026-05-03 20:27:50] Translating 3840/5299 (72.5%) - Silver Dragon's Breath Potion (Adult)
+[2026-05-03 20:28:11] Translating 3850/5299 (72.7%) - Silver Salve
+[2026-05-03 20:28:11] Autosaving progress at 3850/5299...
+[2026-05-03 20:28:42] Translating 3860/5299 (72.8%) - Silversoul Bomb
+[2026-05-03 20:29:03] Translating 3870/5299 (73.0%) - Singing Muse
+[2026-05-03 20:29:30] Translating 3880/5299 (73.2%) - Sixfingers Elixir (Greater)
+[2026-05-03 20:29:53] Translating 3890/5299 (73.4%) - Skeptic's Elixir (Moderate)
+[2026-05-03 20:30:18] Translating 3900/5299 (73.6%) - Skunk Bomb (Greater)
+[2026-05-03 20:30:18] Autosaving progress at 3900/5299...
+[2026-05-03 20:30:46] Translating 3910/5299 (73.8%) - Skyrider Sword (Greater)
+[2026-05-03 20:31:09] Translating 3920/5299 (74.0%) - Slick
+[2026-05-03 20:31:31] Translating 3930/5299 (74.2%) - Sloughing Toxin
+[2026-05-03 20:31:55] Translating 3940/5299 (74.4%) - Smoke Screen Snare (Greater)
+[2026-05-03 20:32:20] Translating 3950/5299 (74.5%) - Smuggler's Sack (Type II)
+[2026-05-03 20:32:20] Autosaving progress at 3950/5299...
+[2026-05-03 20:32:48] Translating 3960/5299 (74.7%) - Snarling Badger (Lesser)
+[2026-05-03 20:33:12] Translating 3970/5299 (74.9%) - Soap
+[2026-05-03 20:33:36] Translating 3980/5299 (75.1%) - Soldier's Syrup (Lesser)
+[2026-05-03 20:33:59] Translating 3990/5299 (75.3%) - Soothing Scents
+[2026-05-03 20:34:27] Translating 4000/5299 (75.5%) - Soulcutter (Heroic)
+[2026-05-03 20:34:27] Autosaving progress at 4000/5299...
+[2026-05-03 20:34:59] Translating 4010/5299 (75.7%) - Spacious Pouch (Type III)
+[2026-05-03 20:35:27] Translating 4020/5299 (75.9%) - Sparking Spellgun (Moderate)
+[2026-05-03 20:35:57] Translating 4030/5299 (76.1%) - Specialist's Ring (Divination)
+[2026-05-03 20:36:25] Translating 4040/5299 (76.2%) - Spectacles of Understanding (Greater)
+[2026-05-03 20:36:59] Translating 4050/5299 (76.4%) - Spellbook (Blank)
+[2026-05-03 20:36:59] Autosaving progress at 4050/5299...
+[2026-05-03 20:37:32] Translating 4060/5299 (76.6%) - Spellstrike Ammunition (Type II)
+[2026-05-03 20:37:58] Translating 4070/5299 (76.8%) - Spellstriker Staff
+[2026-05-03 20:38:27] Translating 4080/5299 (77.0%) - Spider Root
+[2026-05-03 20:38:55] Translating 4090/5299 (77.2%) - Spike Snare
+[2026-05-03 20:39:24] Translating 4100/5299 (77.4%) - Spiral Athame
+[2026-05-03 20:39:24] Autosaving progress at 4100/5299...
+[2026-05-03 20:39:59] Translating 4110/5299 (77.6%) - Spirit-Singer (Incredible Handheld)
+[2026-05-03 20:40:24] Translating 4120/5299 (77.8%) - Spiritual Warhorn (Lesser)
+[2026-05-03 20:40:47] Translating 4130/5299 (77.9%) - Splint
+[2026-05-03 20:41:19] Translating 4140/5299 (78.1%) - Spore Shephard's Staff
+[2026-05-03 20:41:46] Translating 4150/5299 (78.3%) - Sprite Apple (Teal)
+[2026-05-03 20:41:46] Autosaving progress at 4150/5299...
+[2026-05-03 20:42:19] Translating 4160/5299 (78.5%) - Spy Staff (Major)
+[2026-05-03 20:42:46] Translating 4170/5299 (78.7%) - Staff of Air
+[2026-05-03 20:43:10] Translating 4180/5299 (78.9%) - Staff of Elemental Power (Greater)
+[2026-05-03 20:43:37] Translating 4190/5299 (79.1%) - Staff of Healing (Major)
+[2026-05-03 20:44:02] Translating 4200/5299 (79.3%) - Staff of Metal
+[2026-05-03 20:44:02] Autosaving progress at 4200/5299...
+[2026-05-03 20:44:27] Translating 4210/5299 (79.4%) - Staff of Power
+[2026-05-03 20:44:53] Translating 4220/5299 (79.6%) - Staff of Summoning (Major)
+[2026-05-03 20:45:17] Translating 4230/5299 (79.8%) - Staff of the Desert Winds (True)
+[2026-05-03 20:45:44] Translating 4240/5299 (80.0%) - Staff of the Unblinking Eye (Greater)
+[2026-05-03 20:46:11] Translating 4250/5299 (80.2%) - Staff
+[2026-05-03 20:46:11] Autosaving progress at 4250/5299...
+[2026-05-03 20:46:43] Translating 4260/5299 (80.4%) - Stalwart's Banner (Major)
+[2026-05-03 20:47:08] Translating 4270/5299 (80.6%) - Standard Astrolabe
+[2026-05-03 20:47:38] Translating 4280/5299 (80.8%) - Star of Cynosure
+[2026-05-03 20:48:02] Translating 4290/5299 (81.0%) - Starless Scope
+[2026-05-03 20:48:31] Translating 4300/5299 (81.1%) - Steamflight Pack
+[2026-05-03 20:48:31] Autosaving progress at 4300/5299...
+[2026-05-03 20:49:01] Translating 4310/5299 (81.3%) - Sticky Algae Bomb (Major)
+[2026-05-03 20:49:27] Translating 4320/5299 (81.5%) - Stone Fist Elixir
+[2026-05-03 20:49:53] Translating 4330/5299 (81.7%) - Storm Arrow
+[2026-05-03 20:50:19] Translating 4340/5299 (81.9%) - Stormshard (Major)
+[2026-05-03 20:50:42] Translating 4350/5299 (82.1%) - Stunning Snare
+[2026-05-03 20:50:42] Autosaving progress at 4350/5299...
+[2026-05-03 20:51:14] Translating 4360/5299 (82.3%) - Submersible Helmet (Greater)
+[2026-05-03 20:51:45] Translating 4370/5299 (82.5%) - Sulfur Bomb (Major)
+[2026-05-03 20:52:16] Translating 4380/5299 (82.7%) - Sun Slayer
+[2026-05-03 20:52:43] Translating 4390/5299 (82.8%) - Surging Serum (Greater)
+[2026-05-03 20:53:12] Translating 4400/5299 (83.0%) - Swallow-Spike
+[2026-05-03 20:53:12] Autosaving progress at 4400/5299...
+[2026-05-03 20:53:47] Translating 4410/5299 (83.2%) - Swift Standard (Major)
+[2026-05-03 20:54:17] Translating 4420/5299 (83.4%) - Symbol of Conflict (Major)
+[2026-05-03 20:54:47] Translating 4430/5299 (83.6%) - Tales in Timber
+[2026-05-03 20:55:15] Translating 4440/5299 (83.8%) - Taljjae's Mask (The Grandmother)
+[2026-05-03 20:55:42] Translating 4450/5299 (84.0%) - Talonstrike Blade (Greater)
+[2026-05-03 20:55:42] Autosaving progress at 4450/5299...
+[2026-05-03 20:56:08] Translating 4460/5299 (84.2%) - Tankard owned by Cayden Cailean
+[2026-05-03 20:56:38] Translating 4470/5299 (84.4%) - Tattletale Orb (Selenite)
+[2026-05-03 20:57:07] Translating 4480/5299 (84.5%) - Temple Sword
+[2026-05-03 20:57:33] Translating 4490/5299 (84.7%) - Tent (Pavilion)
+[2026-05-03 20:58:03] Translating 4500/5299 (84.9%) - Testudo Shield (Greater)
+[2026-05-03 20:58:03] Autosaving progress at 4500/5299...
+[2026-05-03 20:58:34] Translating 4510/5299 (85.1%) - The Carnival
+[2026-05-03 20:59:02] Translating 4520/5299 (85.3%) - The Eclipse
+[2026-05-03 20:59:27] Translating 4530/5299 (85.5%) - The Kardosian Fragments
+[2026-05-03 20:59:57] Translating 4540/5299 (85.7%) - The Paladin
+[2026-05-03 21:00:24] Translating 4550/5299 (85.9%) - The Tangled Briar
+[2026-05-03 21:00:24] Autosaving progress at 4550/5299...
+[2026-05-03 21:00:55] Translating 4560/5299 (86.1%) - The Vision
+[2026-05-03 21:01:23] Translating 4570/5299 (86.2%) - Therapeutic Snap Peas
+[2026-05-03 21:01:55] Translating 4580/5299 (86.4%) - Thorn of Milani (Moderate)
+[2026-05-03 21:02:18] Translating 4590/5299 (86.6%) - Thousand-Pains Fulu (Burl)
+[2026-05-03 21:02:48] Translating 4600/5299 (86.8%) - Three-Section Naginata
+[2026-05-03 21:02:48] Autosaving progress at 4600/5299...
+[2026-05-03 21:03:21] Translating 4610/5299 (87.0%) - Thunder Sling
+[2026-05-03 21:03:55] Translating 4620/5299 (87.2%) - Thundering (Greater)
+[2026-05-03 21:04:25] Translating 4630/5299 (87.4%) - Tiger Menuki
+[2026-05-03 21:04:55] Translating 4640/5299 (87.6%) - Timepiece Standard
+[2026-05-03 21:05:20] Translating 4650/5299 (87.8%) - Toadskin Salve (Major)
+[2026-05-03 21:05:20] Autosaving progress at 4650/5299...
+[2026-05-03 21:05:50] Translating 4660/5299 (87.9%) - Tool (Long)
+[2026-05-03 21:06:18] Translating 4670/5299 (88.1%) - Topology Protoplasm
+[2026-05-03 21:06:44] Translating 4680/5299 (88.3%) - Tough Skin
+[2026-05-03 21:07:08] Translating 4690/5299 (88.5%) - Tracker's Stew
+[2026-05-03 21:07:36] Translating 4700/5299 (88.7%) - Transmuting Ingot (Silver)
+[2026-05-03 21:07:36] Autosaving progress at 4700/5299...
+[2026-05-03 21:08:05] Translating 4710/5299 (88.9%) - Tremorsensors
+[2026-05-03 21:08:31] Translating 4720/5299 (89.1%) - Triggerbrand
+[2026-05-03 21:09:03] Translating 4730/5299 (89.3%) - Trollhound Vest
+[2026-05-03 21:09:32] Translating 4740/5299 (89.5%) - Truesight Potion
+[2026-05-03 21:09:59] Translating 4750/5299 (89.6%) - Tusk and Fang Chain
+[2026-05-03 21:09:59] Autosaving progress at 4750/5299...
+[2026-05-03 21:10:27] Translating 4760/5299 (89.8%) - Twilight Tattoo
+[2026-05-03 21:10:57] Translating 4770/5299 (90.0%) - Ulfen Shieldbreaker
+[2026-05-03 21:11:26] Translating 4780/5299 (90.2%) - Underbrush Cloak
+[2026-05-03 21:11:58] Translating 4790/5299 (90.4%) - Unholy Water
+[2026-05-03 21:12:27] Translating 4800/5299 (90.6%) - Unmemorable Mantle (Greater)
+[2026-05-03 21:12:27] Autosaving progress at 4800/5299...
+[2026-05-03 21:12:59] Translating 4810/5299 (90.8%) - Uzunjati Storytelling Amulet
+[2026-05-03 21:13:30] Translating 4820/5299 (91.0%) - Vampiric Scythe
+[2026-05-03 21:13:55] Translating 4830/5299 (91.1%) - Vaporous Pipe
+[2026-05-03 21:14:23] Translating 4840/5299 (91.3%) - Venomed Tongue
+[2026-05-03 21:14:53] Translating 4850/5299 (91.5%) - Vermin Repellent Agent (Major)
+[2026-05-03 21:14:53] Autosaving progress at 4850/5299...
+[2026-05-03 21:15:25] Translating 4860/5299 (91.7%) - Vial of the Immortal Wellspring
+[2026-05-03 21:15:55] Translating 4870/5299 (91.9%) - Vine Whip
+[2026-05-03 21:16:29] Translating 4880/5299 (92.1%) - Viridian Crown
+[2026-05-03 21:16:58] Translating 4890/5299 (92.3%) - Void Mirror
+[2026-05-03 21:17:27] Translating 4900/5299 (92.5%) - Waffle Iron (High-grade Mithral)
+[2026-05-03 21:17:27] Autosaving progress at 4900/5299...
+[2026-05-03 21:17:57] Translating 4910/5299 (92.7%) - Wand of Choking Mist (4th-Rank)
+[2026-05-03 21:18:27] Translating 4920/5299 (92.8%) - Wand of Continuation (4th-Rank Spell)
+[2026-05-03 21:18:58] Translating 4930/5299 (93.0%) - Wand of Dazzling Rays (3rd-rank)
+[2026-05-03 21:19:26] Translating 4940/5299 (93.2%) - Wand of Dumbfounding Doom (6th-rank)
+[2026-05-03 21:19:56] Translating 4950/5299 (93.4%) - Wand of Hopeless Night (4th-Rank Spell)
+[2026-05-03 21:19:56] Autosaving progress at 4950/5299...
+[2026-05-03 21:20:22] Translating 4960/5299 (93.6%) - Wand of Legerdemain (2nd-rank)
+[2026-05-03 21:20:43] Translating 4970/5299 (93.8%) - Wand of Mental Purification (3rd-rank)
+[2026-05-03 21:21:09] Translating 4980/5299 (94.0%) - Wand of Mercy (4th-rank)
+[2026-05-03 21:21:30] Translating 4990/5299 (94.2%) - Wand of Overflowing Life (3rd-Rank Spell)
+[2026-05-03 21:21:58] Translating 5000/5299 (94.4%) - Wand of Purification (2nd-Rank Spell)
+[2026-05-03 21:21:58] Autosaving progress at 5000/5299...
+[2026-05-03 21:22:22] Translating 5010/5299 (94.5%) - Wand of Reaching (3rd-Rank)
+[2026-05-03 21:22:41] Translating 5020/5299 (94.7%) - Wand of Rolling Flames (3rd-Rank)
+[2026-05-03 21:23:07] Translating 5030/5299 (94.9%) - Wand of Shardstorm (7th-Rank Spell)
+[2026-05-03 21:23:39] Translating 5040/5299 (95.1%) - Wand of Smoldering Fireballs (9th-Rank Spell)
+[2026-05-03 21:24:04] Translating 5050/5299 (95.3%) - Wand of Teeming Ghosts (3rd-Rank)
+[2026-05-03 21:24:04] Autosaving progress at 5050/5299...
+[2026-05-03 21:24:34] Translating 5060/5299 (95.5%) - Wand of the Snowfields (7th-Rank Spell)
+[2026-05-03 21:25:00] Translating 5070/5299 (95.7%) - Wand of Toxic Blades (6th-Rank)
+[2026-05-03 21:25:24] Translating 5080/5299 (95.9%) - Wand of Widening (6th-Rank Spell)
+[2026-05-03 21:25:51] Translating 5090/5299 (96.1%) - War Gavel
+[2026-05-03 21:26:19] Translating 5100/5299 (96.2%) - Warcaller's Chime of Resistance
+[2026-05-03 21:26:19] Autosaving progress at 5100/5299...
+[2026-05-03 21:26:55] Translating 5110/5299 (96.4%) - Warding Tattoo (Fiend)
+[2026-05-03 21:27:26] Translating 5120/5299 (96.6%) - Warming Parka
+[2026-05-03 21:27:55] Translating 5130/5299 (96.8%) - Water Bomb (Lesser)
+[2026-05-03 21:28:21] Translating 5140/5299 (97.0%) - Wayfinder of Rescue
+[2026-05-03 21:28:46] Translating 5150/5299 (97.2%) - Weapon Shot (Major)
+[2026-05-03 21:28:46] Autosaving progress at 5150/5299...
+[2026-05-03 21:29:20] Translating 5160/5299 (97.4%) - Wheelbarrow
+[2026-05-03 21:29:45] Translating 5170/5299 (97.6%) - Whisper Briolette
+[2026-05-03 21:30:14] Translating 5180/5299 (97.8%) - Wilderness Weave
+[2026-05-03 21:30:41] Translating 5190/5299 (97.9%) - Wind-up Wings (Homing)
+[2026-05-03 21:31:09] Translating 5200/5299 (98.1%) - Wintershot
+[2026-05-03 21:31:09] Autosaving progress at 5200/5299...
+[2026-05-03 21:31:33] Translating 5210/5299 (98.3%) - Wisp Chain
+[2026-05-03 21:32:03] Translating 5220/5299 (98.5%) - Wolf Fang
+[2026-05-03 21:32:28] Translating 5230/5299 (98.7%) - Wondrous Figurine (Onyx Dog)
+[2026-05-03 21:32:58] Translating 5240/5299 (98.9%) - Wooden Shield
+[2026-05-03 21:33:23] Translating 5250/5299 (99.1%) - Worm Vial
+[2026-05-03 21:33:23] Autosaving progress at 5250/5299...
+[2026-05-03 21:33:50] Translating 5260/5299 (99.3%) - Wraithweave Patch (Type II)
+[2026-05-03 21:34:20] Translating 5270/5299 (99.5%) - Writing Set
+[2026-05-03 21:34:51] Translating 5280/5299 (99.6%) - Wyrm Spindle
+[2026-05-03 21:35:19] Translating 5290/5299 (99.8%) - Zealous Banner
+[2026-05-03 21:35:42] Saving final results...
+[2026-05-03 21:35:47] Full translation complete and Excel/JSON files updated!
