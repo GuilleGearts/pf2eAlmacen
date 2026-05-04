@@ -7,6 +7,10 @@
         "en": {
             "name": "Blinded",
             "description": "<p>You can't see. All normal terrain is difficult terrain to you. You can't detect anything using vision. You automatically critically fail Perception checks that require you to be able to see, and if vision is your only precise sense, you take a –4 status penalty to Perception checks. You are immune to visual effects. Blinded overrides <strong>Dazzled</strong>.</p>"
+        },
+        "es": {
+            "name": "Cegado",
+            "description": "<p>No puedes ver. Todo terreno normal es terreno difícil para ti. No se puede detectar nada usando la visión. Automáticamente fallas críticamente las pruebas de Percepción que requieren que puedas ver, y si la visión es tu único sentido preciso, sufres una penalización de estado de -4 a las pruebas de Percepción. Eres inmune a los efectos visuales. Anulaciones ciegas <strong>Deslumbradas</strong>.</p>"
         }
     },
     "6dNUvdb1dhToNDj3": {
@@ -17,6 +21,10 @@
         "en": {
             "name": "Broken",
             "description": "<p>Broken is a condition that affects only objects. An object is broken when damage has reduced its Hit Points to equal or less than its Broken Threshold. A broken object can't be used for its normal function, nor does it grant bonuses—with the exception of armor. Broken armor still grants its item bonus to AC, but it also imparts a status penalty to AC depending on its category: –1 for broken light armor, –2 for broken medium armor, or –3 for broken heavy armor.</p>\n<p>A broken item still imposes penalties and limitations normally incurred by carrying, holding, or wearing it. For example, broken armor would still impose its Dexterity modifier cap, check penalty, and so forth. If an effect makes an item broken automatically and the item has more HP than its Broken Threshold, that effect also reduces the item's current HP to the Broken Threshold.</p>"
+        },
+        "es": {
+            "name": "Roto",
+            "description": "<p>Roto es una condición que afecta sólo a los objetos. Un objeto se rompe cuando el daño ha reducido sus puntos de vida a igual o menos que su umbral de rotura. Un objeto roto no puede usarse para su función normal ni otorga bonificaciones, a excepción de la armadura. La armadura rota aún otorga su bonificación de elemento a la CA, pero también imparte una penalización de estado a la CA dependiendo de su categoría: –1 por armadura ligera rota, –2 por armadura media rota o –3 por armadura pesada rota.</p>\n<p>Un artículo roto aún impone sanciones y limitaciones que normalmente se incurren al transportarlo, sostenerlo o usarlo. Por ejemplo, una armadura rota seguiría imponiendo su límite de modificador de Destreza, penalización de prueba, etc. Si un efecto hace que un objeto se rompa automáticamente y el objeto tiene más HP que su Umbral de Rotura, ese efecto también reduce el HP actual del objeto al Umbral de Rotura.</p>"
         }
     },
     "i3OJZU2nk64Df3xm": {
@@ -27,6 +35,10 @@
         "en": {
             "name": "Clumsy",
             "description": "<p>Your movements become clumsy and inexact. Clumsy always includes a value. You take a status penalty equal to the condition value to Dexterity-based rolls and DCs, including AC, Reflex saves, ranged attack rolls, and skill checks using Acrobatics, Stealth, and Thievery.</p>"
+        },
+        "es": {
+            "name": "Torpe",
+            "description": "<p>Tus movimientos se vuelven torpes e inexactos. Torpe siempre incluye un valor. Recibes una penalización de estado igual al valor de condición de las tiradas basadas en Destreza y CD, incluyendo CA, salvaciones de Reflejos, tiradas de ataque a distancia y pruebas de habilidad usando Acrobacias, Sigilo y Robo.</p>"
         }
     },
     "DmAIPqOBomZ7H95W": {
@@ -37,6 +49,10 @@
         "en": {
             "name": "Concealed",
             "description": "<p>You are difficult for one or more creatures to see due to thick fog or some other obscuring feature. You can be concealed to some creatures but not others. While concealed, you can still be <strong>Observed</strong>, but you're tougher to target. A creature that you're concealed from must succeed at a <strong>Flat check</strong> when targeting you with an attack, spell, or other effect. If the check fails, you aren't affected. Area effects aren't subject to this flat check.</p>"
+        },
+        "es": {
+            "name": "Excusado",
+            "description": "<p>Es difícil que una o más criaturas te vean debido a la espesa niebla o alguna otra característica que oscurece. Puedes estar oculto para algunas criaturas pero no para otras. Mientras estás oculto, aún puedes ser <strong>observado</strong>, pero es más difícil atacarte. Una criatura de la que estás oculto debe superar una <strong>prueba plana</strong> cuando te apunta con un ataque, hechizo u otro efecto. Si la verificación falla, no se verá afectado. Los efectos de área no están sujetos a esta verificación plana.</p>"
         }
     },
     "yblD8fOR1J8rDwEQ": {
@@ -47,6 +63,10 @@
         "en": {
             "name": "Confused",
             "description": "<p>You don't have your wits about you, and you attack wildly. You are <strong>Off-Guard</strong>, you don't treat anyone as your ally (though they might still treat you as theirs), and you can't Delay, Ready, or use reactions.</p>\n<p>You use all your actions to Strike or cast offensive cantrips, though the GM can have you use other actions to facilitate attack, such as draw a weapon, move so target is in reach, and so forth. Your targets are determined randomly by the GM. If you have no other viable targets, you target yourself, automatically hitting but not scoring a critical hit. If it's impossible for you to attack or cast spells, you babble incoherently, wasting your actions.</p>\n<p>Each time you take damage from an attack or spell, you can attempt a <strong>Flat check</strong> to recover from your confusion and end the condition.</p>"
+        },
+        "es": {
+            "name": "Confundido",
+            "description": "<p>No tienes ingenio y atacas salvajemente. Estás <strong>desprevenido</strong>, no tratas a nadie como tu aliado (aunque es posible que aún te traten como si fuera suyo) y no puedes retrasar, preparar ni usar reacciones.</p>\n<p>Usas todas tus acciones para atacar o lanzar trucos ofensivos, aunque el DJ puede pedirte que uses otras acciones para facilitar el ataque, como sacar un arma, moverte para que el objetivo esté a tu alcance, etc. Tus objetivos los determina aleatoriamente el DJ. Si no tienes otros objetivos viables, te apuntas a ti mismo, golpeando automáticamente pero sin conseguir un golpe crítico. Si te resulta imposible atacar o lanzar hechizos, balbuceas incoherentemente, desperdiciando tus acciones.</p>\n<p>Cada vez que recibes daño de un ataque o hechizo, puedes intentar una <strong>prueba plana</strong> para recuperarte de tu confusión y poner fin a la condición.</p>"
         }
     },
     "9qGBRpbX9NEwtAAr": {
@@ -57,6 +77,10 @@
         "en": {
             "name": "Controlled",
             "description": "<p>You have been commanded, magically dominated, or otherwise had your will subverted. The controller dictates how you act and can make you use any of your actions, including attacks, reactions, or even <strong>Delay</strong>. The controller usually doesn't have to spend their own actions when controlling you.</p>"
+        },
+        "es": {
+            "name": "Revisado",
+            "description": "<p>Te han ordenado, dominado mágicamente o tu voluntad ha sido subvertida. El controlador dicta cómo actúas y puede obligarte a utilizar cualquiera de tus acciones, incluidos ataques, reacciones o incluso <strong>retraso</strong>. El controlador normalmente no tiene que realizar sus propias acciones para controlarte.</p>"
         }
     },
     "zXZjC8HLaRoLR17U": {
@@ -67,6 +91,10 @@
         "en": {
             "name": "Cursebound",
             "description": "<p>Your oracular curse is constricting around you as you receive divine punishment after drawing too deeply on your mystery's powers. Cursebound is a condition that affects only creatures with an oracular curse, and cursebound always includes a value. Your specific oracular curse imposes unique negative effects depending on your cursebound value. You can remove the cursebound condition only by Refocusing.</p>"
+        },
+        "es": {
+            "name": "maldito",
+            "description": "<p>Tu maldición oracular se está estrechando a tu alrededor mientras recibes un castigo divino después de recurrir demasiado a los poderes de tu misterio. Cursebound es una condición que afecta sólo a criaturas con una maldición oracular, y maldición siempre incluye un valor. Tu maldición oracular específica impone efectos negativos únicos dependiendo de tu valor de maldición. Puedes eliminar la condición maldita solo reenfocando.</p>"
         }
     },
     "TkIyaNPgTZFBCCuh": {
@@ -77,6 +105,10 @@
         "en": {
             "name": "Dazzled",
             "description": "<p>Your eyes are overstimulated or your vision is swimming. If vision is your only precise sense, all creatures and objects are <strong>Concealed</strong> from you.</p>"
+        },
+        "es": {
+            "name": "deslumbrado",
+            "description": "<p>Tus ojos están sobreestimulados o tu visión se nubla. Si la visión es tu único sentido preciso, todas las criaturas y objetos están <strong>ocultos</strong> para ti.</p>"
         }
     },
     "9PR9y0bi4JPKnHPR": {
@@ -87,6 +119,10 @@
         "en": {
             "name": "Deafened",
             "description": "<p>You can't hear. You automatically critically fail Perception checks that require you to be able to hear. You take a –2 status penalty to Perception checks for initiative and checks that involve sound but also rely on other senses. If you perform an action that has the auditory trait, you must succeed at a <strong>Flat check</strong> or the action is lost; attempt the check after spending the action but before any effects are applied. You are immune to auditory effects while deafened.</p>"
+        },
+        "es": {
+            "name": "ensordecido",
+            "description": "<p>No puedes oír. Automáticamente fallas críticamente las pruebas de Percepción que requieren que puedas oír. Sufres un penalizador de estado -2 a las pruebas de Percepción de iniciativa y a las pruebas que involucran sonido pero que también dependen de otros sentidos. Si realizas una acción que tiene el rasgo auditivo, debes superar una <strong>prueba plana</strong> o la acción se perderá; intenta realizar la prueba después de gastar la acción pero antes de que se aplique cualquier efecto. Eres inmune a los efectos auditivos mientras estás sordo.</p>"
         }
     },
     "3uh1r86TzbQvosxv": {
@@ -97,6 +133,10 @@
         "en": {
             "name": "Doomed",
             "description": "<p>Your soul has been gripped by a powerful force that calls you closer to death. Doomed always includes a value. The <strong>Dying</strong> value at which you die is reduced by your doomed value. If your maximum dying value is reduced to 0, you instantly die. When you die, you're no longer doomed.</p>\n<p>Your doomed value decreases by 1 each time you get a full night's rest.</p>"
+        },
+        "es": {
+            "name": "Condenado",
+            "description": "<p>Tu alma ha sido atrapada por una fuerza poderosa que te acerca a la muerte. Doomed siempre incluye un valor. El valor de <strong>morir</strong> al que mueres se reduce según tu valor de condenación. Si tu valor máximo de muerte se reduce a 0, morirás instantáneamente. Cuando mueres, ya no estás condenado.</p>\n<p>Tu valor condenado disminuye en 1 cada vez que descansas una noche completa.</p>"
         }
     },
     "4D2KBtexWXa6oUMR": {
@@ -107,6 +147,10 @@
         "en": {
             "name": "Drained",
             "description": "<p>Your health and vitality have been depleted as you've lost blood, life force, or some other essence. Drained always includes a value. You take a status penalty equal to your drained value on Constitution-based rolls and DCs, such as Fortitude saves. You also lose a number of Hit Points equal to your level (minimum 1) times the drained value, and your maximum Hit Points are reduced by the same amount. For example, if you become drained 3 and you're a 3rd-level character, you lose 9 Hit Points and reduce your maximum Hit Points by 9. Losing these Hit Points doesn't count as taking damage.</p>\n<p>Each time you get a full night's rest, your drained value decreases by 1. This increases your maximum Hit Points, but you don't immediately recover the lost Hit Points.</p>"
+        },
+        "es": {
+            "name": "Agotado",
+            "description": "<p>Tu salud y vitalidad se han agotado a medida que has perdido sangre, fuerza vital o alguna otra esencia. Drenado siempre incluye un valor. Recibes una penalización de estado igual a tu valor drenado en tiradas basadas en Constitución y CD, como las salvaciones de Fortaleza. También pierdes una cantidad de puntos de vida igual a tu nivel (mínimo 1) multiplicado por el valor drenado, y tus puntos de vida máximos se reducen en la misma cantidad. Por ejemplo, si te agotas 3 y eres un personaje de nivel 3, pierdes 9 puntos de vida y reduces tus puntos de vida máximos en 9. Perder estos puntos de vida no cuenta como recibir daño.</p>\n<p>Cada vez que descansas toda la noche, tu valor drenado disminuye en 1. Esto aumenta tus puntos de vida máximos, pero no recuperas inmediatamente los puntos de vida perdidos.</p>"
         }
     },
     "yZRUzMqrMmfLu0V1": {
@@ -117,6 +161,10 @@
         "en": {
             "name": "Dying",
             "description": "<p>You are bleeding out or otherwise at death's door. While you have this condition, you are <strong>Unconscious</strong>. Dying always includes a value, and if it ever reaches dying 4, you die. When you're dying, you must attempt a recovery check at the start of your turn each round to determine whether you get better or worse. Your dying condition increases by 1 if you take damage while dying, or by 2 if you take damage from an enemy's critical hit or a critical failure on your save.</p>\n<p>If you lose the dying condition by succeeding at a recovery check and are still at 0 Hit Points, you remain unconscious, but you can wake up as described in that condition. You lose the dying condition automatically and wake up if you ever have 1 Hit Point or more. Any time you lose the dying condition, you gain the <strong>Wounded 1</strong> condition, or increase your wounded condition value by 1 if you already have that condition.</p>"
+        },
+        "es": {
+            "name": "Muriendo",
+            "description": "<p>Se está desangrando o al borde de la muerte. Mientras tengas esta condición, estarás <strong>Inconsciente</strong>. Morir siempre incluye un valor, y si alguna vez llega a morir 4, mueres. Cuando estés muriendo, debes intentar una prueba de recuperación al comienzo de tu turno de cada ronda para determinar si mejoras o empeoras. Tu condición de muerte aumenta en 1 si recibes daño mientras mueres, o en 2 si recibes daño por el golpe crítico de un enemigo o por un fallo crítico en tu salvación.</p>\n<p>Si pierdes la condición de muerte al superar una prueba de recuperación y todavía tienes 0 puntos de vida, permaneces inconsciente, pero puedes despertarte como se describe en esa condición. Pierdes la condición de muerte automáticamente y te despiertas si alguna vez tienes 1 punto de vida o más. Cada vez que pierdes la condición de morir, obtienes la condición <strong>Herido 1</strong> o aumentas el valor de tu condición de herido en 1 si ya tienes esa condición.</p>"
         }
     },
     "D5mg6Tc7Jzrj6ro7": {
@@ -127,6 +175,10 @@
         "en": {
             "name": "Encumbered",
             "description": "<p>You are carrying more weight than you can manage. While you're encumbered, you're <strong>Clumsy 1</strong> and take a 10-foot penalty to all your Speeds. As with all penalties to your Speed, this can't reduce your Speed below 5 feet.</p>"
+        },
+        "es": {
+            "name": "gravado",
+            "description": "<p>Llevas más peso del que puedes soportar. Mientras estás sobrecargado, eres <strong>Torpe 1</strong> y recibes una penalización de 10 pies en todas tus velocidades. Como ocurre con todas las penalizaciones a tu velocidad, esto no puede reducir tu velocidad por debajo de 5 pies.</p>"
         }
     },
     "MIRkyAjyBeXivMa7": {
@@ -137,6 +189,10 @@
         "en": {
             "name": "Enfeebled",
             "description": "<p>You're physically weakened. Enfeebled always includes a value. When you are enfeebled, you take a status penalty equal to the condition value to Strength-based rolls and DCs, including Strength-based melee attack rolls, Strength-based damage rolls, and Athletics checks.</p>"
+        },
+        "es": {
+            "name": "debilitado",
+            "description": "<p>Estás físicamente debilitado. Debilitado siempre incluye un valor. Cuando estás debilitado, sufres una penalización de estado igual al valor de condición de las tiradas y CD basadas en Fuerza, incluidas las tiradas de ataque cuerpo a cuerpo basadas en Fuerza, las tiradas de daño basadas en Fuerza y ​​las pruebas de Atletismo.</p>"
         }
     },
     "AdPVz7rbaVSRxHFg": {
@@ -147,6 +203,10 @@
         "en": {
             "name": "Fascinated",
             "description": "<p>You're compelled to focus your attention on something, distracting you from whatever else is going on around you. You take a –2 status penalty to Perception and skill checks, and you can't use concentrate actions unless they (or their intended consequences) are related to the subject of your fascination, as determined by the GM. For instance, you might be able to <strong>Seek</strong> and <strong>Recall Knowledge</strong> about the subject, but you likely couldn't cast a spell targeting a different creature. This condition ends if a creature uses hostile actions against you or any of your allies.</p>"
+        },
+        "es": {
+            "name": "Fascinado",
+            "description": "<p>Te ves obligado a centrar tu atención en algo, distrayéndote de cualquier otra cosa que suceda a tu alrededor. Sufres una penalización de estado de -2 a las pruebas de Percepción y habilidad, y no puedes usar acciones concentradas a menos que (o sus consecuencias previstas) estén relacionadas con el tema de tu fascinación, según lo determine el DJ. Por ejemplo, es posible que puedas <strong>buscar</strong> y <strong>recordar conocimientos</strong> sobre el tema, pero probablemente no puedas lanzar un hechizo dirigido a una criatura diferente. Esta condición termina si una criatura usa acciones hostiles contra ti o cualquiera de tus aliados.</p>"
         }
     },
     "HL2l2VRSaQHu9lUw": {
@@ -157,6 +217,10 @@
         "en": {
             "name": "Fatigued",
             "description": "<p>You're tired and can't summon much energy. You take a –1 status penalty to AC and saving throws. You can't use exploration activities performed while traveling.</p>\n<p>You recover from fatigue after a full night's rest.</p>"
+        },
+        "es": {
+            "name": "fatigado",
+            "description": "<p>Estás cansado y no puedes reunir mucha energía. Sufres una penalización de estado de –1 a la CA y a las tiradas de salvación. No puedes utilizar actividades de exploración realizadas mientras viajas.</p>\n<p>Te recuperas de la fatiga después de una noche de descanso completa.</p>"
         }
     },
     "sDPxOjQ9kx2RZE8D": {
@@ -167,6 +231,10 @@
         "en": {
             "name": "Fleeing",
             "description": "<p>You're forced to run away due to fear or some other compulsion. On your turn, you must spend each of your actions trying to escape the source of the fleeing condition as expediently as possible (such as by using move actions to flee, or opening doors barring your escape). The source is usually the effect or creature that gave you the condition, though some effects might define something else as the source. You can't <strong>Delay</strong> or <strong>Ready</strong> while fleeing.</p>"
+        },
+        "es": {
+            "name": "Huyendo",
+            "description": "<p>Te ves obligado a huir por miedo o alguna otra compulsión. En tu turno, debes gastar cada una de tus acciones tratando de escapar de la fuente de la condición de huida lo más rápidamente posible (por ejemplo, usando acciones de movimiento para huir o abriendo puertas que impidan tu escape). La fuente suele ser el efecto o la criatura que te dio la condición, aunque algunos efectos pueden definir algo más como la fuente. No puedes <strong>Retrasar</strong> o <strong>Preparar</strong> mientras huyes.</p>"
         }
     },
     "v66R7FdOf11l94im": {
@@ -177,6 +245,10 @@
         "en": {
             "name": "Friendly",
             "description": "<p>This condition reflects a creature's disposition toward a particular character, and only supernatural effects (like a spell) can impose this condition on a PC. A creature that is friendly to a character likes that character. It is likely to agree to <strong>Requests</strong> from that character as long as they are simple, safe, and don't cost too much to fulfill. If the character (or one of their allies) uses hostile actions against the creature, the creature gains a worse attitude condition depending on the severity of the hostile action, as determined by the GM.</p>"
+        },
+        "es": {
+            "name": "Amigable",
+            "description": "<p>Esta condición refleja la disposición de una criatura hacia un personaje en particular, y sólo los efectos sobrenaturales (como un hechizo) pueden imponer esta condición a un PJ. A una criatura que es amigable con un personaje le gusta ese personaje. Es probable que acepte las <strong>solicitudes</strong> de ese personaje siempre que sean simples, seguras y no cuesten demasiado. Si el personaje (o uno de sus aliados) usa acciones hostiles contra la criatura, la criatura obtiene una peor condición de actitud dependiendo de la gravedad de la acción hostil, según lo determine el DJ.</p>"
         }
     },
     "TBSHQspnbcqxsmjL": {
@@ -187,6 +259,10 @@
         "en": {
             "name": "Frightened",
             "description": "<p>You're gripped by fear and struggle to control your nerves. The frightened condition always includes a value. You take a status penalty equal to this value to all your checks and DCs. Unless specified otherwise, at the end of each of your turns, the value of your frightened condition decreases by 1.</p>"
+        },
+        "es": {
+            "name": "Atemorizado",
+            "description": "<p>Te invade el miedo y luchas por controlar tus nervios. La condición de miedo siempre incluye un valor. Recibes una penalización de estado igual a este valor en todas tus comprobaciones y CD. A menos que se especifique lo contrario, al final de cada uno de tus turnos, el valor de tu condición de asustado disminuye en 1.</p>"
         }
     },
     "kWc1fhmv9LBiTuei": {
@@ -197,6 +273,10 @@
         "en": {
             "name": "Grabbed",
             "description": "<p>You're held in place by another creature, giving you the <strong>Off-Guard</strong> and <strong>Immobilized</strong> conditions. If you attempt a manipulate action while grabbed, you must succeed at a <strong>Flat check</strong> or it is lost; roll the check after spending the action, but before any effects are applied.</p>"
+        },
+        "es": {
+            "name": "Agarrado",
+            "description": "<p>Otra criatura te mantiene en el lugar, lo que te otorga las condiciones <strong>Descon guardia</strong> e <strong>Inmovilizado</strong>. Si intentas una acción de manipulación mientras estás agarrado, debes tener éxito en una <strong>prueba plana</strong> o se perderá; tira la prueba después de gastar la acción, pero antes de que se aplique cualquier efecto.</p>"
         }
     },
     "v44P3WUcU1j0115l": {
@@ -207,6 +287,10 @@
         "en": {
             "name": "Helpful",
             "description": "<p>This condition reflects a creature's disposition toward a particular character, and only supernatural effects (like a spell) can impose this condition on a PC. A creature that is helpful to a character wishes to actively aid that character. It will accept reasonable <strong>Requests</strong> from that character, as long as such requests aren't at the expense of the helpful creature's goals or quality of life. If the character (or one of their allies) uses a hostile action against the creature, the creature gains a worse attitude condition depending on the severity of the hostile action, as determined by the GM.</p>"
+        },
+        "es": {
+            "name": "Útil",
+            "description": "<p>Esta condición refleja la disposición de una criatura hacia un personaje en particular, y sólo los efectos sobrenaturales (como un hechizo) pueden imponer esta condición a un PJ. Una criatura que es útil para un personaje desea ayudarlo activamente. Aceptará <strong>Solicitudes</strong> razonables de ese personaje, siempre y cuando dichas solicitudes no sean a expensas de los objetivos o la calidad de vida de la criatura útil. Si el personaje (o uno de sus aliados) usa una acción hostil contra la criatura, la criatura obtiene una peor condición de actitud dependiendo de la gravedad de la acción hostil, según lo determine el DJ.</p>"
         }
     },
     "iU0fEDdBp3rXpTMC": {
@@ -217,6 +301,10 @@
         "en": {
             "name": "Hidden",
             "description": "<p>While you're hidden from a creature, that creature knows the space you're in but can't tell precisely where you are. You typically become hidden by using Stealth to <strong>Hide</strong>. When <strong>Seeking</strong> a creature using only imprecise senses, it remains hidden, rather than <strong>Observed</strong>. A creature you're hidden from is <strong>Off-Guard</strong> to you, and it must succeed at a <strong>Flat check</strong> when targeting you with an attack, spell, or other effect or it fails to affect you. Area effects aren't subject to this flat check.</p>\n<p>A creature might be able to use the seek action to try to observe you.</p>"
+        },
+        "es": {
+            "name": "Oculto",
+            "description": "<p>Mientras estás oculto de una criatura, esa criatura sabe el espacio en el que estás pero no puede decir con precisión dónde estás. Por lo general, te ocultas usando Sigilo para <strong>Ocultar</strong>. Cuando <strong>busca</strong> una criatura usando sólo sentidos imprecisos, ésta permanece oculta, en lugar de <strong>observada</strong>. Una criatura de la que estás oculto está <strong>desprevenida</strong> para ti y debe superar una <strong>prueba plana</strong> cuando te apunta con un ataque, hechizo u otro efecto o no podrá afectarte. Los efectos de área no están sujetos a esta verificación plana.</p>\n<p>Una criatura podría utilizar la acción de buscar para intentar observarte.</p>"
         }
     },
     "ud7gTLwPeklzYSXG": {
@@ -227,6 +315,10 @@
         "en": {
             "name": "Hostile",
             "description": "<p>This condition reflects a creature's disposition toward a particular character, and only supernatural effects (like a spell) can impose on a PC. A creature hostile to a character actively seeks to harm that character. It doesn't necessarily attack, but it won't accept <strong>Requests</strong> from the character.</p>"
+        },
+        "es": {
+            "name": "Hostil",
+            "description": "<p>Esta condición refleja la disposición de una criatura hacia un personaje en particular, y solo los efectos sobrenaturales (como un hechizo) pueden imponerse a un PJ. Una criatura hostil a un personaje busca activamente dañar a ese personaje. No necesariamente ataca, pero no acepta <strong>solicitudes</strong> del personaje.</p>"
         }
     },
     "eIcWbB5o3pP6OIMe": {
@@ -237,6 +329,10 @@
         "en": {
             "name": "Immobilized",
             "description": "<p>You are incapable of movement. You can't use any actions that have the move trait. If you're immobilized by something holding you in place and an external force would move you out of your space, the force must succeed at a check against either the DC of the effect holding you in place or the relevant defense (usually Fortitude DC) of the monster holding you in place.</p>"
+        },
+        "es": {
+            "name": "Inmovilizado",
+            "description": "<p>Eres incapaz de moverte. No puedes usar ninguna acción que tenga el rasgo de movimiento. Si estás inmovilizado por algo que te mantiene en su lugar y una fuerza externa te sacaría de tu espacio, la fuerza debe tener éxito en una prueba contra la CD del efecto que te mantiene en su lugar o la defensa relevante (generalmente Fortaleza DC) del monstruo que te mantiene en su lugar.</p>"
         }
     },
     "fuG8dgthlDWfWjIA": {
@@ -247,6 +343,10 @@
         "en": {
             "name": "Indifferent",
             "description": "<p>This condition reflects a creature's disposition toward a particular character, and only supernatural effects (like a spell) can impose this condition on a PC. A creature that is indifferent to a character doesn't really care one way or the other about that character. Assume a creature's attitude to a given character is indifferent unless specified otherwise.</p>"
+        },
+        "es": {
+            "name": "Indiferente",
+            "description": "<p>Esta condición refleja la disposición de una criatura hacia un personaje en particular, y sólo los efectos sobrenaturales (como un hechizo) pueden imponer esta condición a un PJ. Una criatura que es indiferente a un personaje realmente no se preocupa de ninguna manera por ese personaje. Supongamos que la actitud de una criatura hacia un personaje determinado es indiferente a menos que se especifique lo contrario.</p>"
         }
     },
     "zJxUflt9np0q4yML": {
@@ -257,6 +357,10 @@
         "en": {
             "name": "Invisible",
             "description": "<p>You can't be seen. You're <strong>Undetected</strong> to everyone. Creatures can <strong>Seek</strong> to detect you; if a creature succeeds at its Perception check against your Stealth DC, you become <strong>Hidden</strong> to that creature until you <strong>Sneak</strong> to become undetected again. If you become invisible while someone can already see you, you start out hidden to them (instead of undetected) until you successfully Sneak. You can't become <strong>Observed</strong> while invisible except via special abilities or magic.</p>"
+        },
+        "es": {
+            "name": "Invisible",
+            "description": "<p>No puedes ser visto. Estás <strong>desapercibido</strong> para todos. Las criaturas pueden <strong>buscar</strong> para detectarte; Si una criatura tiene éxito en su prueba de Percepción contra tu CD de Sigilo, quedarás <strong>Oculto</strong> para esa criatura hasta que te <strong>Escabullas</strong> para pasar desapercibido nuevamente. Si te vuelves invisible mientras alguien ya puede verte, comienzas oculto para ellos (en lugar de pasar desapercibido) hasta que te escabulles con éxito. No puedes ser <strong>observado</strong> mientras eres invisible, excepto mediante habilidades especiales o magia.</p>"
         }
     },
     "1wQY3JYyhMYeeV2G": {
@@ -267,6 +371,10 @@
         "en": {
             "name": "Observed",
             "description": "<p>Anything in plain view is observed by you. If a creature takes measures to avoid detection, such as by using Stealth to <strong>Hide</strong>, it can become <strong>Hidden</strong> or <strong>Undetected</strong> instead of observed. If you have another precise sense besides sight, you might be able to observe a creature or object using that sense instead. You can observe a creature with only your precise senses. When <strong>Seeking</strong> a creature using only imprecise senses, it remains hidden, rather than observed.</p>"
+        },
+        "es": {
+            "name": "Observado",
+            "description": "<p>Todo lo que esté a la vista será observado por usted. Si una criatura toma medidas para evitar ser detectada, como usar Sigilo para <strong>Ocultarse</strong>, puede quedar <strong>Oculta</strong> o <strong>No detectada</strong> en lugar de ser observada. Si tienes otro sentido preciso además de la vista, es posible que puedas observar una criatura u objeto usando ese sentido. Puedes observar una criatura sólo con tus sentidos precisos. Cuando <strong>busca</strong> una criatura usando sólo sentidos imprecisos, ésta permanece oculta, en lugar de observada.</p>"
         }
     },
     "AJh5ex99aV6VTggg": {
@@ -277,6 +385,10 @@
         "en": {
             "name": "Off-Guard",
             "description": "<p>You're distracted or otherwise unable to focus your full attention on defense. You take a –2 circumstance penalty to AC. Some effects give you the off-guard condition only to certain creatures or against certain attacks. Others—especially conditions—can make you off-guard against everything. If a rule doesn't specify that the condition applies only to certain circumstances, it applies to all of them, such as \"The target is off-guard.\"</p>"
+        },
+        "es": {
+            "name": "Fuera de guardia",
+            "description": "<p>Estás distraído o no puedes centrar toda tu atención en la defensa. Recibes una penalización de circunstancia -2 a la CA. Algunos efectos te dan la condición de sorpresa solo ante ciertas criaturas o contra ciertos ataques. Otros, especialmente las condiciones, pueden hacer que usted esté desprevenido frente a todo. Si una regla no especifica que la condición se aplica solo a determinadas circunstancias, se aplica a todas ellas, como \"El objetivo está desprevenido\".</p>"
         }
     },
     "6uEgoh53GbXuHpTF": {
@@ -287,6 +399,10 @@
         "en": {
             "name": "Paralyzed",
             "description": "<p>You're frozen in place. You have the <strong>Off-Guard</strong> condition and can't act except to <strong>Recall Knowledge</strong> and use actions that require only your mind (as determined by the GM). Your senses still function, but only in the areas you can perceive without moving, so you can't <strong>Seek</strong>.</p>"
+        },
+        "es": {
+            "name": "Paralizado",
+            "description": "<p>Estás congelado en el lugar. Tienes la condición <strong>Desprevenido</strong> y no puedes actuar excepto para <strong>Recuperar conocimientos</strong> y utilizar acciones que solo requieran tu mente (según lo determine el DJ). Tus sentidos aún funcionan, pero solo en las áreas que puedes percibir sin moverte, por lo que no puedes <strong>Buscar</strong>.</p>"
         }
     },
     "lDVqvLKA6eF3Df60": {
@@ -297,6 +413,10 @@
         "en": {
             "name": "Persistent Damage",
             "description": "<p>You are taking damage from an ongoing effect, such as from being lit on fire. This appears as \"X persistent [type] damage,\" where \"X\" is the amount of damage dealt and \"[type]\" is the damage type. Like normal damage, it can be doubled or halved based on the results of an attack roll or saving throw. Instead of taking persistent damage immediately, you take it at the end of each of your turns as long as you have the condition, rolling any damage dice anew each time. After you take persistent damage, roll a <strong>Flat check</strong> to see if you recover from the persistent damage. If you succeed, the condition ends.</p>"
+        },
+        "es": {
+            "name": "Daño persistente",
+            "description": "<p>Estás sufriendo daño por un efecto continuo, como por ejemplo, cuando te prenden fuego. Esto aparece como \"X daño persistente [tipo]\", donde \"X\" es la cantidad de daño infligido y \"[tipo]\" es el tipo de daño. Al igual que el daño normal, se puede duplicar o reducir a la mitad según los resultados de una tirada de ataque o de salvación. En lugar de recibir daño persistente inmediatamente, lo recibes al final de cada uno de tus turnos siempre que tengas la condición, tirando los dados de daño de nuevo cada vez. Después de recibir daño persistente, haz una <strong>prueba plana</strong> para ver si te recuperas del daño persistente. Si lo logras, la condición finaliza.</p>"
         }
     },
     "dTwPJuKgBQCMxixg": {
@@ -307,6 +427,10 @@
         "en": {
             "name": "Petrified",
             "description": "<p>You have been turned to stone. You can't act, nor can you sense anything. You become an object with a Bulk double your normal Bulk (typically 12 for a petrified Medium creature or 6 for a petrified Small creature), AC 9, Hardness 8, and the same current Hit Points you had when alive. You don't have a Broken Threshold. When the petrified condition ends, you have the same number of Hit Points you had as a statue. If the statue is destroyed, you immediately die. While petrified, your mind and body are in stasis, so you don't age or notice the passing of time.</p>"
+        },
+        "es": {
+            "name": "petrificado",
+            "description": "<p>Has sido convertido en piedra. No puedes actuar ni sentir nada. Te conviertes en un objeto con un Volumen que duplica tu Volumen normal (normalmente 12 para una criatura Mediana petrificada o 6 para una criatura Pequeña petrificada), CA 9, Dureza 8 y los mismos Puntos de Vida que tenías cuando estabas vivo. No tienes un umbral roto. Cuando termina la condición petrificada, tienes la misma cantidad de puntos de vida que tenías como estatua. Si la estatua es destruida, mueres inmediatamente. Mientras estás petrificado, tu mente y tu cuerpo están en estasis, por lo que no envejeces ni notas el paso del tiempo.</p>"
         }
     },
     "j91X7x0XSomq8d60": {
@@ -317,6 +441,10 @@
         "en": {
             "name": "Prone",
             "description": "<p>You're lying on the ground. You are <strong>Off-Guard</strong> and take a –2 circumstance penalty to attack rolls. The only move actions you can use while you're prone are <strong>Crawl</strong> and <strong>Stand</strong>. Standing up ends the prone condition. You can <strong>Take Cover</strong> while prone to hunker down and gain greater cover against ranged attacks, even if you don't have an object to get behind, which grants you a +4 circumstance bonus to AC against ranged attacks (but you remain off-guard).</p>\n<p>If you would be knocked prone while you're <strong>Climbing</strong> or <strong>Flying</strong>, you fall. You can't be knocked prone when <strong>Swimming</strong>.</p>"
+        },
+        "es": {
+            "name": "Propenso",
+            "description": "<p>Estás tirado en el suelo. Estás <strong>desprevenido</strong> y sufres una penalización circunstancial de -2 a las tiradas de ataque. Las únicas acciones de movimiento que puedes utilizar mientras estás boca abajo son <strong>gatear</strong> y <strong>estar de pie</strong>. Ponerse de pie pone fin a la condición boca abajo. Puedes <strong>ponerte a cubierto</strong> mientras eres propenso a agacharte y obtener mayor cobertura contra ataques a distancia, incluso si no tienes un objeto detrás del cual esconderte, lo que te otorga una bonificación de circunstancia +4 a la CA contra ataques a distancia (pero permaneces con la guardia baja).</p>\n<p>Si te golpean boca abajo mientras estás <strong>escalando</strong> o <strong>volando</strong>, te caerás. No puedes quedarte boca abajo al <strong>nadar</strong>.</p>"
         }
     },
     "nlCjDvLMf2EkV2dl": {
@@ -327,6 +455,10 @@
         "en": {
             "name": "Quickened",
             "description": "<p>You're able to act more quickly. You gain 1 additional action at the start of your turn each round. Many effects that make you quickened require you use this extra action only in certain ways. If you become quickened from multiple sources, you can use the extra action you've been granted for any single action allowed by any of the effects that made you quickened. Because quickened has its effect at the start of your turn, you don't immediately gain actions if you become quickened during your turn.</p>"
+        },
+        "es": {
+            "name": "acelerado",
+            "description": "<p>Puedes actuar más rápidamente. Obtienes 1 acción adicional al comienzo de tu turno en cada ronda. Muchos efectos que te aceleran requieren que uses esta acción adicional sólo de ciertas maneras. Si te aceleran por múltiples fuentes, puedes usar la acción adicional que se te ha otorgado para cualquier acción individual permitida por cualquiera de los efectos que te aceleraron. Debido a que la aceleración tiene su efecto al comienzo de tu turno, no obtienes acciones inmediatamente si te aceleran durante tu turno.</p>"
         }
     },
     "VcDeM8A5oI6VqhbM": {
@@ -337,6 +469,10 @@
         "en": {
             "name": "Restrained",
             "description": "<p>You're tied up and can barely move, or a creature has you pinned. You have the <strong>Off-Guard</strong> and <strong>Immobilized</strong> conditions, and you can't use any attack or manipulate actions except to attempt to <strong>Escape</strong> or <strong>Force Open</strong> your bonds. Restrained overrides <strong>Grabbed</strong>.</p>"
+        },
+        "es": {
+            "name": "Contenido",
+            "description": "<p>Estás atado y apenas puedes moverte, o una criatura te tiene inmovilizado. Tienes las condiciones <strong>Fuera de guardia</strong> e <strong>Inmovilizado</strong>, y no puedes usar ningún ataque ni manipular acciones excepto para intentar <strong>Escapar</strong> o <strong>Forzar la apertura</strong> de tus ataduras. Anulaciones restringidas <strong>Agarradas</strong>.</p>"
         }
     },
     "fesd1n5eVhpCSS18": {
@@ -347,6 +483,10 @@
         "en": {
             "name": "Sickened",
             "description": "<p><strong>PF2E.condition.sickened.rules</strong></p>"
+        },
+        "es": {
+            "name": "asqueado",
+            "description": "<p><strong>Reglas.de.condición.enferma.de.PF2E</strong></p>"
         }
     },
     "xYTAsEpcJE1Ccni3": {
@@ -357,6 +497,10 @@
         "en": {
             "name": "Slowed",
             "description": "<p>You have fewer actions. Slowed always includes a value. When you regain your actions, reduce the number of actions regained by your slowed value. Because you regain actions at the start of your turn, you don't immediately lose actions if you become slowed during your turn.</p>"
+        },
+        "es": {
+            "name": "ralentizado",
+            "description": "<p>Tienes menos acciones. Ralentizado siempre incluye un valor. Cuando recupere sus acciones, reduzca la cantidad de acciones recuperadas por su valor ralentizado. Debido a que recuperas acciones al comienzo de tu turno, no pierdes acciones inmediatamente si te ralentizan durante tu turno.</p>"
         }
     },
     "dfCMdR4wnpbYNTix": {
@@ -367,6 +511,10 @@
         "en": {
             "name": "Stunned",
             "description": "<p>You've become senseless. You can't act. Stunned usually includes a value, which indicates how many total actions you lose, possibly over multiple turns, from being stunned. Each time you regain actions, reduce the number you regain by your stunned value, then reduce your stunned value by the number of actions you lost. For example, if you were stunned 4, you would lose all 3 of your actions on your turn, reducing you to stunned 1; on your next turn, you would lose 1 more action, and then be able to use your remaining 2 actions normally. Stunned might also have a duration instead, such as \"stunned for 1 minute,\" causing you to lose all your actions for the duration.</p>\n<p>Stunned overrides <strong>Slowed</strong>. If the duration of your stunned condition ends while you are slowed, you count the actions lost to the stunned condition toward those lost to being slowed. So, if you were stunned 1 and slowed 2 at the beginning of your turn, you would lose 1 action from stunned, and then lose only 1 additional action by being slowed, so you would still have 1 action remaining to use that turn.</p>"
+        },
+        "es": {
+            "name": "Aturdido",
+            "description": "<p>Te has vuelto insensato. No puedes actuar. Aturdido generalmente incluye un valor, que indica cuántas acciones totales pierdes, posiblemente durante varios turnos, por estar aturdido. Cada vez que recuperes acciones, reduce el número que recuperas por tu valor de aturdimiento, luego reduce tu valor de aturdimiento por la cantidad de acciones que perdiste. Por ejemplo, si estuvieras aturdido 4, perderías tus 3 acciones en tu turno, reduciéndote a aturdido 1; en tu próximo turno, perderás 1 acción más y luego podrás usar las 2 acciones restantes normalmente. Aturdido también puede tener una duración, como \"aturdido durante 1 minuto\", lo que hace que pierdas todas tus acciones mientras dure.</p>\n<p>Aturdido anula <strong>Ralentizado</strong>. Si la duración de tu condición de aturdimiento termina mientras estás ralentizado, cuentas las acciones perdidas por la condición de aturdimiento como aquellas perdidas por la ralentización. Entonces, si fuiste aturdido 1 y ralentizado 2 al comienzo de tu turno, perderías 1 acción por aturdimiento y luego perderías solo 1 acción adicional por ser ralentizado, por lo que aún te quedaría 1 acción para usar ese turno.</p>"
         }
     },
     "e1XGnhKNSQIm5IXg": {
@@ -377,6 +525,10 @@
         "en": {
             "name": "Stupefied",
             "description": "<p>Your thoughts and instincts are clouded. Stupefied always includes a value. You take a status penalty equal to this value on Intelligence-, Wisdom-, and Charisma-based rolls and DCs, including Will saving throws, spell attack modifiers, spell DCs, and skill checks that use these attribute modifiers. Any time you attempt to <strong>Cast a Spell</strong> while stupefied, the spell is disrupted unless you succeed at a <strong>Flat check</strong> with a DC equal to 5 + your stupefied value.</p>"
+        },
+        "es": {
+            "name": "estupefacto",
+            "description": "<p>Tus pensamientos e instintos están nublados. Estupefacto siempre incluye un valor. Recibes una penalización de estado igual a este valor en las tiradas y CD basadas en Inteligencia, Sabiduría y Carisma, incluidas las tiradas de salvación de Voluntad, modificadores de ataque con hechizos, CD de hechizos y pruebas de habilidad que usan estos modificadores de atributos. Cada vez que intentas <strong>lanzar un hechizo</strong> mientras estás estupefacto, el hechizo se interrumpe a menos que tengas éxito en una <strong>prueba plana</strong> con una CD igual a 5 + tu valor de estupefacción.</p>"
         }
     },
     "fBnFDH2MTzgFijKf": {
@@ -387,6 +539,10 @@
         "en": {
             "name": "Unconscious",
             "description": "<p>You're sleeping or have been knocked out. You can't act. You take a –4 status penalty to AC, Perception, and Reflex saves, and you have the <strong>Blinded</strong> and <strong>Off-Guard</strong> conditions. When you gain this condition, you fall <strong>Prone</strong> and drop items you're holding unless the effect states otherwise or the GM determines you're positioned so you wouldn't.</p>\n<p>If you're unconscious because you're <strong>Dying</strong>, you can't wake up while you have 0 Hit Points. If you are restored to 1 Hit Point or more, you lose the dying and unconscious conditions and can act normally on your next turn.</p>\n<p>If you are unconscious and at 0 Hit Points, but not dying, you return to 1 Hit Point and awaken after sufficient time passes. The GM determines how long you remain unconscious, from a minimum of 10 minutes to several hours. If you are healed, you lose the unconscious condition and can act normally on your next turn.</p>\n<p>If you're unconscious and have more than 1 Hit Point (typically because you are asleep or unconscious due to an effect), you wake up in one of the following ways.</p>\n<ul>\n<li>You take damage, though if the damage reduces you to 0 Hit Points, you remain unconscious and gain the dying condition as normal.</li>\n<li>You receive healing, other than the natural healing you get from resting.</li>\n<li>Someone shakes you awake with an <strong>Interact</strong> action.</li>\n<li>Loud noise around you might wake you. At the start of your turn, you automatically attempt a Perception check against the noise's DC (or the lowest DC if there is more than one noise), waking up if you succeed. If creatures are attempting to stay quiet around you, this Perception check uses their Stealth DCs. Some effects make you sleep so deeply that they don't allow you this Perception check.</li>\n<li>If you are simply asleep, the GM decides you wake up either because you have had a restful night's sleep or something disrupted that rest.</li>\n</ul>"
+        },
+        "es": {
+            "name": "Inconsciente",
+            "description": "<p>Estás durmiendo o has sido noqueado. No puedes actuar. Recibes una penalización de estado de -4 a las salvaciones de CA, Percepción y Reflejos, y tienes las condiciones <strong>Cegado</strong> y <strong>Fuera de guardia</strong>. Cuando obtienes esta condición, caes <strong>tumbado</strong> y sueltas los objetos que estás sosteniendo a menos que el efecto indique lo contrario o el DJ determine que estás en una posición que no lo harías.</p>\n<p>Si estás inconsciente porque estás <strong>muriendo</strong>, no podrás despertar mientras tengas 0 puntos de vida. Si recuperas 1 punto de vida o más, perderás las condiciones de muerte e inconsciencia y podrás actuar normalmente en tu próximo turno.</p>\n<p>Si estás inconsciente y tienes 0 puntos de vida, pero no mueres, regresas a 1 punto de vida y despiertas después de que pase el tiempo suficiente. El DJ determina cuánto tiempo permaneces inconsciente, desde un mínimo de 10 minutos hasta varias horas. Si te curas, pierdes la condición de inconsciente y puedes actuar normalmente en tu próximo turno.</p>\n<p>Si estás inconsciente y tienes más de 1 punto de vida (normalmente porque estás dormido o inconsciente debido a un efecto), te despiertas de una de las siguientes maneras.</p>\n<ul>\n<li>Recibes daño, aunque si el daño te reduce a 0 puntos de vida, permaneces inconsciente y obtienes la condición de muerte normal.</li>\n<li>Recibes curación, además de la curación natural que obtienes al descansar.</li>\n<li>Alguien te despierta con una acción de <strong>Interactuar</strong>.</li>\n<li>Los ruidos fuertes a tu alrededor pueden despertarte. Al comienzo de tu turno, intentas automáticamente una prueba de Percepción contra la CD del ruido (o la CD más baja si hay más de un ruido), despertándote si tienes éxito. Si las criaturas intentan permanecer silenciosas a tu alrededor, esta prueba de Percepción utiliza sus CD de Sigilo. Algunos efectos te hacen dormir tan profundamente que no te permiten realizar esta prueba de Percepción.</li>\n<li>Si simplemente estás dormido, el DJ decide que te despiertas porque has tenido una noche de sueño reparador o porque algo interrumpió ese descanso.</li>\n</ul>"
         }
     },
     "VRSef5y1LmL2Hkjf": {
@@ -397,6 +553,10 @@
         "en": {
             "name": "Undetected",
             "description": "<p>When you are undetected by a creature, that creature can't see you at all, has no idea what space you occupy, and can't target you, though you still can be affected by abilities that target an area. When you're undetected by a creature, that creature is <strong>Off-Guard</strong> to you.</p>\n<p>A creature you're undetected by can guess which square you're in to try targeting you. It must pick a square and attempt an attack. This works like targeting a <strong>Hidden</strong> creature (requiring a <strong>Flat check</strong>), but the flat check and attack roll are rolled in secret by the GM, who doesn't reveal whether the attack missed due to failing the flat check, failing the attack roll, or choosing the wrong square. They can <strong>Seek</strong> to try to find you.</p>"
+        },
+        "es": {
+            "name": "no detectado",
+            "description": "<p>Cuando una criatura no te detecta, esa criatura no puede verte en absoluto, no tiene idea de qué espacio ocupas y no puede apuntarte, aunque aún puedes verte afectado por habilidades que apuntan a un área. Cuando una criatura no te detecta, esa criatura está <strong>desprevenida</strong> para ti.</p>\n<p>Una criatura que no te detecta puede adivinar en qué casilla estás para intentar apuntarte. Debe elegir una casilla e intentar un ataque. Esto funciona como apuntar a una criatura <strong>oculta</strong> (lo que requiere una <strong>prueba plana</strong>), pero la prueba plana y la tirada de ataque las realiza en secreto el DJ, quien no revela si el ataque falló debido a que falló la prueba plana, falló la tirada de ataque o eligió la casilla equivocada. Pueden <strong>buscar</strong> para intentar encontrarte.</p>"
         }
     },
     "I1ffBVISxLr2gC4u": {
@@ -407,6 +567,10 @@
         "en": {
             "name": "Unfriendly",
             "description": "<p>This condition reflects a creature's disposition toward a particular character, and only supernatural effects (like a spell) can impose this condition on a PC. A creature that is unfriendly to a character dislikes and distrusts that character. The unfriendly creature won't accept <strong>Requests</strong> from the character.</p>"
+        },
+        "es": {
+            "name": "Antipático",
+            "description": "<p>Esta condición refleja la disposición de una criatura hacia un personaje en particular, y sólo los efectos sobrenaturales (como un hechizo) pueden imponer esta condición a un PJ. Una criatura que es hostil con un personaje no le agrada y desconfía de ese personaje. La criatura hostil no aceptará <strong>solicitudes</strong> del personaje.</p>"
         }
     },
     "9evPzg9E6muFcoSk": {
@@ -417,6 +581,10 @@
         "en": {
             "name": "Unnoticed",
             "description": "<p>If you're unnoticed by a creature, that creature has no idea you're present. When you're unnoticed, you're also <strong>Undetected</strong>. This matters for abilities that can be used only against targets totally unaware of your presence.</p>"
+        },
+        "es": {
+            "name": "Inadvertido",
+            "description": "<p>Si una criatura no te nota, esa criatura no tiene idea de que estás presente. Cuando pasas desapercibido, también pasas desapercibido. Esto es importante para las habilidades que solo pueden usarse contra objetivos que desconocen totalmente tu presencia.</p>"
         }
     },
     "Yl48xTdMh3aeQYL2": {
@@ -427,6 +595,10 @@
         "en": {
             "name": "Wounded",
             "description": "<p>You have been seriously injured. If you lose the <strong>Dying</strong> condition and do not already have the wounded condition, you become wounded 1. If you already have the wounded condition when you lose the dying condition, your wounded condition value increases by 1. If you gain the dying condition while wounded, increase your dying condition value by your wounded value.</p>\n<p>The wounded condition ends if someone successfully restores Hit Points to you using <strong>Treat Wounds</strong>, or if you are restored to full Hit Points by any means and rest for 10 minutes.</p>"
+        },
+        "es": {
+            "name": "Herido",
+            "description": "<p>Has resultado gravemente herido. Si pierdes la condición <strong>Morir</strong> y aún no tienes la condición de herido, quedarás herido 1. Si ya tienes la condición de herido cuando pierdes la condición de muerte, el valor de tu condición de herido aumenta en 1. Si obtienes la condición de muerte mientras estás herido, aumenta el valor de tu condición de muerte por tu valor de herido.</p>\n<p>La condición de herido termina si alguien te restaura exitosamente los puntos de vida usando <strong>Tratar heridas</strong>, o si recuperas todos tus puntos de vida por cualquier medio y descansas durante 10 minutos.</p>"
         }
     }
 }
