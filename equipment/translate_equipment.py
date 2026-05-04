@@ -6,6 +6,19 @@ import os
 import pandas as pd
 import numpy as np
 import subprocess
+from datetime import datetime
+import sys
+
+# Override print to include timestamp
+def log_print(*args, **kwargs):
+    timestamp = datetime.now().strftime("[%Y-%m-%d %H:%M:%S]")
+    # Use the original print to write to the redirected stdout
+    builtins_print(f"{timestamp} ", end="")
+    builtins_print(*args, **kwargs)
+
+import builtins
+builtins_print = builtins.print
+builtins.print = log_print
 
 EXCEL_PATH = 'traduccion_equipos.xlsx'
 
@@ -73,7 +86,7 @@ def main():
         if pd.isna(df.loc[idx, 'Name (ES)']) or df.loc[idx, 'Name (ES)'] == '':
             name_es = translate_text(name_en)
             df.loc[idx, 'Name (ES)'] = name_es
-            time.sleep(0.5) # Reduced sleep for better speed if allowed
+            time.sleep(0.5)
         
         # Translate description if missing
         if pd.isna(df.loc[idx, 'Description (ES)']) or df.loc[idx, 'Description (ES)'] == '':
@@ -103,8 +116,11 @@ def main():
         print(f"Error on final save: {e}")
 
 if __name__ == '__main__':
-    # Log output to a file
-    import sys
-    sys.stdout = open('translate_equipment.log', 'w', buffering=1)
-    sys.stderr = sys.stdout
+    # Log output to a file, using append mode to keep history
+    log_file = open('translate_equipment.log', 'a', buffering=1, encoding='utf-8')
+    sys.stdout = log_file
+    sys.stderr = log_file
+    
+    print("\n--- INICIANDO NUEVA SESION DE TRADUCCION ---")
     main()
+
